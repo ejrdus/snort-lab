@@ -1,0 +1,40 @@
+# ─────────────────────────────────────────────────────────────────────────
+# [공격 유형 1] SQL Injection 탐지 (GET /api/account)
+# ─────────────────────────────────────────────────────────────────────────
+# 페이로드에 포함된 주요 SQL 키워드(' OR, UNION SELECT 등)를 탐지합니다.
+alert tcp any any -> any 80 (msg:"[ATTACK] SQL Injection Attempt"; \
+    http_uri; content:"/api/account", nocase; \
+    pcre:"/(\'|\"|%27|%22)\s*(OR|AND|UNION|SELECT|DROP|INSERT)/i"; \
+    sid:1000001; rev:1;)
+
+# ─────────────────────────────────────────────────────────────────────────
+# [공격 유형 2] 비정상 고액 이체 탐지 (POST /api/transfer)
+# ─────────────────────────────────────────────────────────────────────────
+# HTTP 바디 내의 amount 값이 5억(500,000,000) 이상인 경우를 탐지합니다.
+# 정상 트래픽의 최대치(500,000원)와 큰 차이를 두어 오탐을 방지합니다.
+alert tcp any any -> any 80 (msg:"[CRITICAL] High Amount Transfer Attempt"; \
+    http_method; content:"POST"; \
+    http_uri; content:"/api/transfer", nocase; \
+    http_client_body; pcre:"/\"amount\"\s*:\s*[5-9][0-9]{8,}/"; \
+    sid:1000002; rev:1;)
+
+# ─────────────────────────────────────────────────────────────────────────
+# [공격 유형 3] Brute Force / Flooding 탐지 (POST /api/transfer)
+# ─────────────────────────────────────────────────────────────────────────
+# 정상 트래픽은 10초당 약 15~20회 미만입니다. 
+# 공격의 '고속 반복(0.05초 간격)'을 잡기 위해 10초 내 30회 초과 시 탐지합니다.
+alert tcp any any -> any 80 (msg:"[ATTACK] API Request Brute Force Detected"; \
+    http_method; content:"POST"; \
+    http_uri; content:"/api/transfer", nocase; \
+    detection_filter: track by_src, count 30, seconds 10; \
+    sid:1000003; rev:1;)
+
+# ─────────────────────────────────────────────────────────────────────────
+# [공격 유형 4] 의심 User-Agent / 스캐너 탐지
+# ─────────────────────────────────────────────────────────────────────────
+# sqlmap, Nikto 등 알려진 공격 도구의 User-Agent를 탐지합니다.
+alert tcp any any -> any 80 (msg:"[INFO] Security Scanner Activity Detected"; \
+    http_header; pcre:"/User-Agent:.*(sqlmap|Nikto|Nmap|DirBuster|zgrab|masscan)/i"; \
+    sid:1000004; rev:1;)
+
+

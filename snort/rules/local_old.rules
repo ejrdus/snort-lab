@@ -1,0 +1,4 @@
+alert tcp any any -> any any (msg:"SQLMAP DETECTED"; content:"sqlmap"; sid:1000001;)
+alert tcp any any -> any any (msg:"NMAP DETECTED"; content:"nmap"; sid:1000002;)
+alert tcp any any -> any any (msg:"DIRBUSTER DETECTED"; content:"dirbuster"; sid:1000003;)
+alert tcp any any -> any any (msg:"MASSCAN DETECTED"; content:"masscan"; sid:1000004;)

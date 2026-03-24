@@ -1,0 +1,260 @@
+--------------------------------------------------
+o")~   Snort++ 3.12.1.0
+--------------------------------------------------
+Loading /usr/local/etc/snort/snort.lua:
+Loading snort_defaults.lua:
+Finished snort_defaults.lua:
+	ssh
+	host_cache
+	pop
+	binder
+	stream_tcp
+	mms
+	smtp
+	gtp_inspect
+	packets
+	dce_http_proxy
+	ips
+	stream_icmp
+	normalizer
+	wizard
+	appid
+	js_norm
+	file_inspect
+	http2_inspect
+	http_inspect
+	ftp_data
+	stream_udp
+	ftp_server
+	port_scan
+	search_engine
+	dce_http_server
+	dce_tcp
+	dce_smb
+	iec104
+	cip
+	telnet
+	ssl
+	sip
+	rpc_decode
+	netflow
+	modbus
+	host_tracker
+	stream_user
+	stream_ip
+	process
+	back_orifice
+	classifications
+	dnp3
+	opcua
+	active
+	ftp_client
+	daq
+	socks
+	decode
+	alerts
+	stream
+	network
+	references
+	arp_spoof
+	output
+	hosts
+	dns
+	dce_udp
+	imap
+	file_policy
+	s7commplus
+	stream_file
+Finished /usr/local/etc/snort/snort.lua:
+Loading file_inspect.rules_file:
+Loading file_magic.rules:
+Finished file_magic.rules:
+Finished file_inspect.rules_file:
+Loading rule args:
+Loading /home/user/Desktop/snort-lab/snort/rules/local.rules:
+Finished /home/user/Desktop/snort-lab/snort/rules/local.rules:
+Finished rule args:
+--------------------------------------------------
+ips policies rule stats
+              id  loaded  shared enabled    file
+               1     221       0     221    /usr/local/etc/snort/snort.lua
+--------------------------------------------------
+rule counts
+       total rules loaded: 221
+               text rules: 221
+            option chains: 221
+            chain headers: 2
+--------------------------------------------------
+service rule counts          to-srv  to-cli
+                  file_id:      219     219
+                     http:        2       0
+                    http2:        2       0
+                    http3:        2       0
+                    total:      225     219
+--------------------------------------------------
+fast pattern groups
+                to_server: 4
+                to_client: 1
+--------------------------------------------------
+search engine (ac_bnfa)
+                instances: 5
+                 patterns: 444
+            pattern chars: 2680
+               num states: 1895
+         num match states: 398
+             memory scale: KB
+             total memory: 76.3584
+           pattern memory: 19.9561
+        match list memory: 29.1172
+        transition memory: 26.6602
+appid: MaxRss diff: 2944
+appid: patterns loaded: 300
+--------------------------------------------------
+pcap DAQ configured to passive.
+Commencing packet processing
+Retry queue interval is: 200 ms
+++ [0] lo
+03/22-04:37:08.569564 [**] [1:1000005:1] "API ACCOUNT REPEATED CALL DETECTED" [**] [Priority: 0] {TCP} 127.0.0.1:54988 -> 127.0.0.1:5000
+03/22-04:37:09.978255 [**] [1:1000005:1] "API ACCOUNT REPEATED CALL DETECTED" [**] [Priority: 0] {TCP} 127.0.0.1:54998 -> 127.0.0.1:5000
+03/22-04:37:10.992002 [**] [1:1000005:1] "API ACCOUNT REPEATED CALL DETECTED" [**] [Priority: 0] {TCP} 127.0.0.1:55014 -> 127.0.0.1:5000
+03/22-04:37:12.057175 [**] [1:1000005:1] "API ACCOUNT REPEATED CALL DETECTED" [**] [Priority: 0] {TCP} 127.0.0.1:55028 -> 127.0.0.1:5000
+03/22-04:37:12.784911 [**] [1:1000005:1] "API ACCOUNT REPEATED CALL DETECTED" [**] [Priority: 0] {TCP} 127.0.0.1:55040 -> 127.0.0.1:5000
+03/22-04:37:17.946099 [**] [1:1000005:1] "API ACCOUNT REPEATED CALL DETECTED" [**] [Priority: 0] {TCP} 127.0.0.1:59662 -> 127.0.0.1:5000
+** caught int signal
+== stopping
+-- [0] lo
+--------------------------------------------------
+Packet Statistics
+--------------------------------------------------
+daq
+                 received: 11040
+                 analyzed: 5517
+                    allow: 5517
+                     idle: 12
+                 rx_bytes: 673494
+--------------------------------------------------
+codec
+                    total: 5517        	(100.000%)
+                 discards: 2           	(  0.036%)
+                      eth: 5517        	(100.000%)
+                     ipv4: 5517        	(100.000%)
+                      tcp: 5515        	( 99.964%)
+--------------------------------------------------
+Module Statistics
+--------------------------------------------------
+ac_bnfa
+                 searches: 119
+                  matches: 98
+                    bytes: 21834
+--------------------------------------------------
+ac_full
+                 searches: 409
+                  matches: 588
+                    bytes: 31062
+--------------------------------------------------
+appid
+                  packets: 5515
+        processed_packets: 5515
+           total_sessions: 52
+       service_cache_adds: 2
+             bytes_in_use: 336
+             items_in_use: 2
+--------------------------------------------------
+binder
+              raw_packets: 2
+                new_flows: 52
+          service_changes: 51
+                 inspects: 54
+--------------------------------------------------
+detection
+                 analyzed: 5517
+             pdu_searches: 51
+            file_searches: 68
+                   alerts: 6
+             total_alerts: 6
+                   logged: 6
+                buf_dumps: 6
+--------------------------------------------------
+file_inspect
+              total_files: 68
+          total_file_data: 20535
+     max_concurrent_files: 1
+--------------------------------------------------
+http_inspect
+                    flows: 51
+                    scans: 272
+              reassembles: 272
+              inspections: 272
+                 requests: 51
+                responses: 51
+             get_requests: 34
+            post_requests: 17
+           request_bodies: 17
+  max_concurrent_sessions: 1
+              total_bytes: 44113
+--------------------------------------------------
+ips_actions
+                    alert: 6
+--------------------------------------------------
+port_scan
+                  packets: 5515
+                 trackers: 2
+--------------------------------------------------
+search_engine
+               max_queued: 3
+            total_flushed: 93
+            total_inserts: 98
+             total_unique: 93
+     non_qualified_events: 87
+         qualified_events: 6
+--------------------------------------------------
+stream
+                    flows: 52
+             total_prunes: 51
+            closed_prunes: 51
+--------------------------------------------------
+stream_tcp
+                 sessions: 52
+                      max: 52
+                  created: 52
+                 released: 52
+             instantiated: 52
+                   setups: 52
+                 restarts: 51
+             syn_trackers: 51
+            data_trackers: 1
+              segs_queued: 3683
+            segs_released: 3683
+                segs_used: 3682
+          rebuilt_packets: 1262
+            rebuilt_bytes: 305595
+          client_cleanups: 1
+                     syns: 51
+                 syn_acks: 51
+                     fins: 102
+        partial_fallbacks: 2
+        splitter_restarts: 2
+                 max_segs: 116
+                max_bytes: 8255
+--------------------------------------------------
+wizard
+                tcp_scans: 277
+                 tcp_hits: 51
+               tcp_misses: 2
+--------------------------------------------------
+Appid Statistics
+--------------------------------------------------
+detected apps and services
+              Application: Services   Clients    Users      Payloads   Misc       Referred  
+                  unknown: 52         50         0          51         0          0         
+--------------------------------------------------
+Summary Statistics
+--------------------------------------------------
+process
+                  signals: 1
+--------------------------------------------------
+timing
+                  runtime: 00:07:55
+                  seconds: 475.849538
+                 pkts/sec: 12
+o")~   Snort exiting
