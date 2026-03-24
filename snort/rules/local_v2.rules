@@ -1,32 +1,40 @@
 # ─────────────────────────────────────────────────────────────────────────
 # [공격 유형 1] SQL Injection 탐지 (GET /api/account)
+#   OWASP A03:2021 - Injection
+#   개선: 키워드 확장(EXEC,HAVING,WAITFOR 등), 세미콜론 허용([\s;]*)
 # ─────────────────────────────────────────────────────────────────────────
 alert tcp any any -> any 5000 (msg:"[ATTACK] SQL Injection Attempt"; \
     http_uri; content:"/api/account", nocase; \
-    pcre:"/(\'|\"|%27|%22)\s*(OR|AND|UNION|SELECT|DROP|INSERT)/i"; \
-    sid:1000001; rev:5;)
+    pcre:"/(\'|\"|%27|%22)[\s\x3b]*(OR|AND|UNION|SELECT|DROP|INSERT|EXEC|HAVING|GROUP|WAITFOR|INTO|SHUTDOWN|BENCHMARK|EXTRACTVALUE|UPDATEXML)/i"; \
+    sid:1000001; rev:6;)
 
 # ─────────────────────────────────────────────────────────────────────────
 # [공격 유형 2] 비정상 고액 이체 탐지 (POST /api/transfer)
+#   OWASP A04:2021 - Insecure Design
+#   개선: 10억 이상(10자리+) 탐지 추가, 5억~9.9억 + 10억 이상 모두 커버
 # ─────────────────────────────────────────────────────────────────────────
 alert tcp any any -> any 5000 (msg:"[CRITICAL] High Amount Transfer Attempt"; \
     http_method; content:"POST"; \
     http_uri; content:"/api/transfer", nocase; \
-    http_client_body; pcre:"/\"amount\"\s*:\s*[5-9][0-9]{8,}/"; \
-    sid:1000002; rev:5;)
+    http_client_body; pcre:"/\"amount\"\s*:\s*([5-9][0-9]{8}|[0-9]{10,})/"; \
+    sid:1000002; rev:6;)
 
 # ─────────────────────────────────────────────────────────────────────────
 # [공격 유형 3] Brute Force / Flooding 탐지 (POST /api/transfer)
+#   OWASP A07:2021 - Identification and Authentication Failures
+#   유지: detection_filter 임계값 방식 (10초 내 30회 초과 시 탐지)
 # ─────────────────────────────────────────────────────────────────────────
 alert tcp any any -> any 5000 (msg:"[ATTACK] API Request Brute Force Detected"; \
     http_method; content:"POST"; \
     http_uri; content:"/api/transfer", nocase; \
     detection_filter: track by_src, count 30, seconds 10; \
-    sid:1000003; rev:5;)
+    sid:1000003; rev:6;)
 
 # ─────────────────────────────────────────────────────────────────────────
 # [공격 유형 4] 의심 User-Agent / 스캐너 탐지
+#   OWASP A09:2021 - Security Logging and Monitoring Failures
+#   개선: 탐지 도구 목록 확장 (6개 → 17개)
 # ─────────────────────────────────────────────────────────────────────────
 alert tcp any any -> any 5000 (msg:"[INFO] Security Scanner Activity Detected"; \
-    http_header; pcre:"/User-Agent:.*(sqlmap|Nikto|Nmap|DirBuster|zgrab|masscan)/i"; \
-    sid:1000004; rev:5;)
+    http_header; pcre:"/User-Agent:.*(sqlmap|Nikto|Nmap|DirBuster|zgrab|masscan|gobuster|wfuzz|nuclei|ffuf|Hydra|Arachni|OpenVAS|w3af|skipfish|WhatWeb|WPScan)/i"; \
+    sid:1000004; rev:6;)
