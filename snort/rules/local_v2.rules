@@ -1,7 +1,7 @@
 # ─────────────────────────────────────────────────────────────────────────
 # [공격 유형 1] SQL Injection 탐지 (GET /api/account)
 #   OWASP A03:2021 - Injection
-#   개선: 키워드 확장(EXEC,HAVING,WAITFOR 등), 세미콜론 허용([\s;]*)
+#   개선: 키워드 확장(EXEC,HAVING,WAITFOR 등), 세미콜론 허용(\x3b)
 # ─────────────────────────────────────────────────────────────────────────
 alert tcp any any -> any 5000 (msg:"[ATTACK] SQL Injection Attempt"; \
     http_uri; content:"/api/account", nocase; \

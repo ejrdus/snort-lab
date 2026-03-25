@@ -1,566 +1,572 @@
-03/24-08:16:42.580210 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:34016 -> 127.0.0.1:5000
-03/24-08:16:42.882357 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:34032 -> 127.0.0.1:5000
-03/24-08:16:43.184615 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:34040 -> 127.0.0.1:5000
-03/24-08:16:43.486457 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:35218 -> 127.0.0.1:5000
-03/24-08:16:43.789281 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:35230 -> 127.0.0.1:5000
-03/24-08:16:44.091134 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:35240 -> 127.0.0.1:5000
-03/24-08:16:44.392852 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:35262 -> 127.0.0.1:5000
-03/24-08:16:44.695120 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:35266 -> 127.0.0.1:5000
-03/24-08:16:44.997306 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:35270 -> 127.0.0.1:5000
-03/24-08:16:45.600796 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:35306 -> 127.0.0.1:5000
-03/24-08:16:45.902992 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:35318 -> 127.0.0.1:5000
-03/24-08:16:46.204839 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:35324 -> 127.0.0.1:5000
-03/24-08:16:46.814552 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:35348 -> 127.0.0.1:5000
-03/24-08:16:47.120759 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:35360 -> 127.0.0.1:5000
-03/24-08:16:47.422807 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:35376 -> 127.0.0.1:5000
-03/24-08:16:47.724430 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:35398 -> 127.0.0.1:5000
-03/24-08:16:48.026239 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:35402 -> 127.0.0.1:5000
-03/24-08:16:48.331093 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:35416 -> 127.0.0.1:5000
-03/24-08:16:48.632828 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:35428 -> 127.0.0.1:5000
-03/24-08:16:48.934714 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:35434 -> 127.0.0.1:5000
-03/24-08:16:49.242497 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:35448 -> 127.0.0.1:5000
-03/24-08:16:49.545075 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:35462 -> 127.0.0.1:5000
-03/24-08:16:49.846890 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:35464 -> 127.0.0.1:5000
-03/24-08:16:50.148732 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:35476 -> 127.0.0.1:5000
-03/24-08:16:50.452199 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:35488 -> 127.0.0.1:5000
-03/24-08:16:51.060208 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:35498 -> 127.0.0.1:5000
-03/24-08:16:51.666496 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:35520 -> 127.0.0.1:5000
-03/24-08:16:51.968077 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:35530 -> 127.0.0.1:5000
-03/24-08:16:52.269782 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:35538 -> 127.0.0.1:5000
-03/24-08:16:52.571920 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:35544 -> 127.0.0.1:5000
-03/24-08:16:52.877774 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:35572 -> 127.0.0.1:5000
-03/24-08:16:53.180226 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:35588 -> 127.0.0.1:5000
-03/24-08:16:53.481991 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:54280 -> 127.0.0.1:5000
-03/24-08:16:53.788530 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:54292 -> 127.0.0.1:5000
-03/24-08:16:54.092263 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:54302 -> 127.0.0.1:5000
-03/24-08:16:54.394000 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:54312 -> 127.0.0.1:5000
-03/24-08:16:54.700254 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:54322 -> 127.0.0.1:5000
-03/24-08:16:55.001932 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:54324 -> 127.0.0.1:5000
-03/24-08:16:55.303915 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:54328 -> 127.0.0.1:5000
-03/24-08:16:55.606029 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:54350 -> 127.0.0.1:5000
-03/24-08:16:55.907822 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:54352 -> 127.0.0.1:5000
-03/24-08:16:56.209613 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:54356 -> 127.0.0.1:5000
-03/24-08:16:56.511866 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:54366 -> 127.0.0.1:5000
-03/24-08:16:56.814640 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:54380 -> 127.0.0.1:5000
-03/24-08:16:57.116324 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:54394 -> 127.0.0.1:5000
-03/24-08:16:57.719749 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:54404 -> 127.0.0.1:5000
-03/24-08:16:58.023865 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:54418 -> 127.0.0.1:5000
-03/24-08:16:58.325517 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:54442 -> 127.0.0.1:5000
-03/24-08:16:58.928882 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:54452 -> 127.0.0.1:5000
-03/24-08:16:59.230603 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:54456 -> 127.0.0.1:5000
-03/24-08:16:59.536840 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:54468 -> 127.0.0.1:5000
-03/24-08:16:59.840244 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:54478 -> 127.0.0.1:5000
-03/24-08:17:00.141961 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:54480 -> 127.0.0.1:5000
-03/24-08:17:00.443491 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:54494 -> 127.0.0.1:5000
-03/24-08:17:00.748378 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:54496 -> 127.0.0.1:5000
-03/24-08:17:01.050096 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:54522 -> 127.0.0.1:5000
-03/24-08:17:01.351912 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:54530 -> 127.0.0.1:5000
-03/24-08:17:01.653810 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:54544 -> 127.0.0.1:5000
-03/24-08:17:01.955763 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:54552 -> 127.0.0.1:5000
-03/24-08:17:02.257723 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:54554 -> 127.0.0.1:5000
-03/24-08:17:02.560084 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:54580 -> 127.0.0.1:5000
-03/24-08:17:03.167593 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:54604 -> 127.0.0.1:5000
-03/24-08:17:03.777305 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58412 -> 127.0.0.1:5000
-03/24-08:17:04.080391 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58438 -> 127.0.0.1:5000
-03/24-08:17:04.385679 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58450 -> 127.0.0.1:5000
-03/24-08:17:04.689780 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58452 -> 127.0.0.1:5000
-03/24-08:17:04.992439 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58466 -> 127.0.0.1:5000
-03/24-08:17:05.295155 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58482 -> 127.0.0.1:5000
-03/24-08:17:05.596923 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58488 -> 127.0.0.1:5000
-03/24-08:17:05.900367 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58490 -> 127.0.0.1:5000
-03/24-08:17:06.203775 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58492 -> 127.0.0.1:5000
-03/24-08:17:06.508373 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58496 -> 127.0.0.1:5000
-03/24-08:17:06.812698 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58518 -> 127.0.0.1:5000
-03/24-08:17:07.114993 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58532 -> 127.0.0.1:5000
-03/24-08:17:07.417795 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58544 -> 127.0.0.1:5000
-03/24-08:17:07.720316 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58548 -> 127.0.0.1:5000
-03/24-08:17:08.023224 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58558 -> 127.0.0.1:5000
-03/24-08:17:08.324919 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58560 -> 127.0.0.1:5000
-03/24-08:17:08.626618 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58572 -> 127.0.0.1:5000
-03/24-08:17:08.928272 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58580 -> 127.0.0.1:5000
-03/24-08:17:09.234853 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58584 -> 127.0.0.1:5000
-03/24-08:17:09.841000 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58602 -> 127.0.0.1:5000
-03/24-08:17:10.142738 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58612 -> 127.0.0.1:5000
-03/24-08:17:10.448884 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58618 -> 127.0.0.1:5000
-03/24-08:17:11.054853 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58640 -> 127.0.0.1:5000
-03/24-08:17:11.356579 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58642 -> 127.0.0.1:5000
-03/24-08:17:11.658378 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58646 -> 127.0.0.1:5000
-03/24-08:17:11.964054 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58656 -> 127.0.0.1:5000
-03/24-08:17:12.268656 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58666 -> 127.0.0.1:5000
-03/24-08:17:12.571833 [**] [1:1000001:6] "[ATTACK] SQL Injection Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58688 -> 127.0.0.1:5000
-03/24-08:17:12.873628 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58704 -> 127.0.0.1:5000
-03/24-08:17:13.178585 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58712 -> 127.0.0.1:5000
-03/24-08:17:13.483520 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:43270 -> 127.0.0.1:5000
-03/24-08:17:13.790074 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:43286 -> 127.0.0.1:5000
-03/24-08:17:14.093418 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:43300 -> 127.0.0.1:5000
-03/24-08:17:14.398585 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:43316 -> 127.0.0.1:5000
-03/24-08:17:14.704454 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:43328 -> 127.0.0.1:5000
-03/24-08:17:15.006666 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:43336 -> 127.0.0.1:5000
-03/24-08:17:15.308337 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:43364 -> 127.0.0.1:5000
-03/24-08:17:15.611822 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:43370 -> 127.0.0.1:5000
-03/24-08:17:15.916756 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:43378 -> 127.0.0.1:5000
-03/24-08:17:16.220349 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:43390 -> 127.0.0.1:5000
-03/24-08:17:16.522280 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:43402 -> 127.0.0.1:5000
-03/24-08:17:16.824049 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:43404 -> 127.0.0.1:5000
-03/24-08:17:17.125804 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:43414 -> 127.0.0.1:5000
-03/24-08:17:17.429982 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:43422 -> 127.0.0.1:5000
-03/24-08:17:17.735237 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:43434 -> 127.0.0.1:5000
-03/24-08:17:18.037013 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:43456 -> 127.0.0.1:5000
-03/24-08:17:18.340031 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:43470 -> 127.0.0.1:5000
-03/24-08:17:18.642188 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:43478 -> 127.0.0.1:5000
-03/24-08:17:18.953092 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:43486 -> 127.0.0.1:5000
-03/24-08:17:19.254900 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:43510 -> 127.0.0.1:5000
-03/24-08:17:19.556724 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:43526 -> 127.0.0.1:5000
-03/24-08:17:19.858651 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:43536 -> 127.0.0.1:5000
-03/24-08:17:20.160472 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:43540 -> 127.0.0.1:5000
-03/24-08:17:20.463843 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:43556 -> 127.0.0.1:5000
-03/24-08:17:20.765555 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:43572 -> 127.0.0.1:5000
-03/24-08:17:21.067120 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:43574 -> 127.0.0.1:5000
-03/24-08:17:21.368757 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:43586 -> 127.0.0.1:5000
-03/24-08:17:21.670399 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:43602 -> 127.0.0.1:5000
-03/24-08:17:21.670406 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:43602 -> 127.0.0.1:5000
-03/24-08:17:21.976548 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:43610 -> 127.0.0.1:5000
-03/24-08:17:21.976557 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:43610 -> 127.0.0.1:5000
-03/24-08:17:22.281933 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:43616 -> 127.0.0.1:5000
-03/24-08:17:22.281941 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:43616 -> 127.0.0.1:5000
-03/24-08:17:22.583654 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:43624 -> 127.0.0.1:5000
-03/24-08:17:22.583662 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:43624 -> 127.0.0.1:5000
-03/24-08:17:22.885451 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:43640 -> 127.0.0.1:5000
-03/24-08:17:22.885458 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:43640 -> 127.0.0.1:5000
-03/24-08:17:23.187900 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:43650 -> 127.0.0.1:5000
-03/24-08:17:23.187907 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:43650 -> 127.0.0.1:5000
-03/24-08:17:23.489632 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:53036 -> 127.0.0.1:5000
-03/24-08:17:23.489695 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:53036 -> 127.0.0.1:5000
-03/24-08:17:23.791500 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:53046 -> 127.0.0.1:5000
-03/24-08:17:23.791508 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:53046 -> 127.0.0.1:5000
-03/24-08:17:24.093206 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:53052 -> 127.0.0.1:5000
-03/24-08:17:24.093216 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:53052 -> 127.0.0.1:5000
-03/24-08:17:24.397711 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:53054 -> 127.0.0.1:5000
-03/24-08:17:24.397717 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:53054 -> 127.0.0.1:5000
-03/24-08:17:24.631758 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:53064 -> 127.0.0.1:5000
-03/24-08:17:24.699453 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:53068 -> 127.0.0.1:5000
-03/24-08:17:24.699461 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:53068 -> 127.0.0.1:5000
-03/24-08:17:25.002057 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:53078 -> 127.0.0.1:5000
-03/24-08:17:25.002064 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:53078 -> 127.0.0.1:5000
-03/24-08:17:25.303912 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:53092 -> 127.0.0.1:5000
-03/24-08:17:25.303918 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:53092 -> 127.0.0.1:5000
-03/24-08:17:25.605587 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:53108 -> 127.0.0.1:5000
-03/24-08:17:25.605604 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:53108 -> 127.0.0.1:5000
-03/24-08:17:25.907857 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:53112 -> 127.0.0.1:5000
-03/24-08:17:25.907865 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:53112 -> 127.0.0.1:5000
-03/24-08:17:26.209705 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:53124 -> 127.0.0.1:5000
-03/24-08:17:26.209712 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:53124 -> 127.0.0.1:5000
-03/24-08:17:26.435331 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:53128 -> 127.0.0.1:5000
-03/24-08:17:26.511472 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:53134 -> 127.0.0.1:5000
-03/24-08:17:26.511479 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:53134 -> 127.0.0.1:5000
-03/24-08:17:26.813360 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:53138 -> 127.0.0.1:5000
-03/24-08:17:26.813367 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:53138 -> 127.0.0.1:5000
-03/24-08:17:27.115516 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:53144 -> 127.0.0.1:5000
-03/24-08:17:27.115527 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:53144 -> 127.0.0.1:5000
-03/24-08:17:27.417828 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:53156 -> 127.0.0.1:5000
-03/24-08:17:27.417840 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:53156 -> 127.0.0.1:5000
-03/24-08:17:27.719636 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:53168 -> 127.0.0.1:5000
-03/24-08:17:27.719643 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:53168 -> 127.0.0.1:5000
-03/24-08:17:28.022781 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:53186 -> 127.0.0.1:5000
-03/24-08:17:28.022789 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:53186 -> 127.0.0.1:5000
-03/24-08:17:28.329586 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:53200 -> 127.0.0.1:5000
-03/24-08:17:28.329593 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:53200 -> 127.0.0.1:5000
-03/24-08:17:28.530093 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:53212 -> 127.0.0.1:5000
-03/24-08:17:28.631484 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:53216 -> 127.0.0.1:5000
-03/24-08:17:28.631503 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:53216 -> 127.0.0.1:5000
-03/24-08:17:28.938061 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:53218 -> 127.0.0.1:5000
-03/24-08:17:28.938070 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:53218 -> 127.0.0.1:5000
-03/24-08:17:29.239921 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:53230 -> 127.0.0.1:5000
-03/24-08:17:29.239929 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:53230 -> 127.0.0.1:5000
-03/24-08:17:29.543666 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:53244 -> 127.0.0.1:5000
-03/24-08:17:29.543674 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:53244 -> 127.0.0.1:5000
-03/24-08:17:29.847826 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:53254 -> 127.0.0.1:5000
-03/24-08:17:29.847833 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:53254 -> 127.0.0.1:5000
-03/24-08:17:30.150677 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:53268 -> 127.0.0.1:5000
-03/24-08:17:30.150684 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:53268 -> 127.0.0.1:5000
-03/24-08:17:30.456999 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:53284 -> 127.0.0.1:5000
-03/24-08:17:30.457007 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:53284 -> 127.0.0.1:5000
-03/24-08:17:30.759730 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:53302 -> 127.0.0.1:5000
-03/24-08:17:30.759737 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:53302 -> 127.0.0.1:5000
-03/24-08:17:31.065321 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:53306 -> 127.0.0.1:5000
-03/24-08:17:31.065328 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:53306 -> 127.0.0.1:5000
-03/24-08:17:31.134536 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:53320 -> 127.0.0.1:5000
-03/24-08:17:31.371585 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:53330 -> 127.0.0.1:5000
-03/24-08:17:31.371593 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:53330 -> 127.0.0.1:5000
-03/24-08:17:31.677245 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:53336 -> 127.0.0.1:5000
-03/24-08:17:31.677253 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:53336 -> 127.0.0.1:5000
-03/24-08:17:31.978777 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:53356 -> 127.0.0.1:5000
-03/24-08:17:31.978784 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:53356 -> 127.0.0.1:5000
-03/24-08:17:32.280410 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:53370 -> 127.0.0.1:5000
-03/24-08:17:32.280417 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:53370 -> 127.0.0.1:5000
-03/24-08:17:32.582099 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:53378 -> 127.0.0.1:5000
-03/24-08:17:32.582107 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:53378 -> 127.0.0.1:5000
-03/24-08:17:32.883894 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:53394 -> 127.0.0.1:5000
-03/24-08:17:32.883901 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:53394 -> 127.0.0.1:5000
-03/24-08:17:32.954104 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:53398 -> 127.0.0.1:5000
-03/24-08:17:33.185755 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:53410 -> 127.0.0.1:5000
-03/24-08:17:33.185762 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:53410 -> 127.0.0.1:5000
-03/24-08:17:33.490093 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37602 -> 127.0.0.1:5000
-03/24-08:17:33.490112 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:37602 -> 127.0.0.1:5000
-03/24-08:17:33.795003 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37618 -> 127.0.0.1:5000
-03/24-08:17:33.795011 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:37618 -> 127.0.0.1:5000
-03/24-08:17:34.098768 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37632 -> 127.0.0.1:5000
-03/24-08:17:34.098784 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:37632 -> 127.0.0.1:5000
-03/24-08:17:34.400305 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37634 -> 127.0.0.1:5000
-03/24-08:17:34.400312 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:37634 -> 127.0.0.1:5000
-03/24-08:17:34.702081 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37638 -> 127.0.0.1:5000
-03/24-08:17:34.702088 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:37638 -> 127.0.0.1:5000
-03/24-08:17:35.005233 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37656 -> 127.0.0.1:5000
-03/24-08:17:35.005241 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:37656 -> 127.0.0.1:5000
-03/24-08:17:35.307756 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37662 -> 127.0.0.1:5000
-03/24-08:17:35.307764 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:37662 -> 127.0.0.1:5000
-03/24-08:17:35.610993 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37674 -> 127.0.0.1:5000
-03/24-08:17:35.611000 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:37674 -> 127.0.0.1:5000
-03/24-08:17:35.912665 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37680 -> 127.0.0.1:5000
-03/24-08:17:35.912673 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:37680 -> 127.0.0.1:5000
-03/24-08:17:36.218933 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37700 -> 127.0.0.1:5000
-03/24-08:17:36.218943 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:37700 -> 127.0.0.1:5000
-03/24-08:17:36.525038 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37716 -> 127.0.0.1:5000
-03/24-08:17:36.525047 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:37716 -> 127.0.0.1:5000
-03/24-08:17:36.826685 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37726 -> 127.0.0.1:5000
-03/24-08:17:36.826696 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:37726 -> 127.0.0.1:5000
-03/24-08:17:37.132927 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37732 -> 127.0.0.1:5000
-03/24-08:17:37.132934 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:37732 -> 127.0.0.1:5000
-03/24-08:17:37.434773 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37748 -> 127.0.0.1:5000
-03/24-08:17:37.434784 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:37748 -> 127.0.0.1:5000
-03/24-08:17:37.736565 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37754 -> 127.0.0.1:5000
-03/24-08:17:37.736573 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:37754 -> 127.0.0.1:5000
-03/24-08:17:38.038230 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37762 -> 127.0.0.1:5000
-03/24-08:17:38.038238 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:37762 -> 127.0.0.1:5000
-03/24-08:17:38.340461 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37778 -> 127.0.0.1:5000
-03/24-08:17:38.340468 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:37778 -> 127.0.0.1:5000
-03/24-08:17:38.466521 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37786 -> 127.0.0.1:5000
-03/24-08:17:38.642129 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37792 -> 127.0.0.1:5000
-03/24-08:17:38.642136 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:37792 -> 127.0.0.1:5000
-03/24-08:17:38.948716 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37804 -> 127.0.0.1:5000
-03/24-08:17:38.948724 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:37804 -> 127.0.0.1:5000
-03/24-08:17:39.250815 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37818 -> 127.0.0.1:5000
-03/24-08:17:39.250822 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:37818 -> 127.0.0.1:5000
-03/24-08:17:39.555282 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37826 -> 127.0.0.1:5000
-03/24-08:17:39.555289 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:37826 -> 127.0.0.1:5000
-03/24-08:17:39.857274 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37836 -> 127.0.0.1:5000
-03/24-08:17:39.857282 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:37836 -> 127.0.0.1:5000
-03/24-08:17:40.162624 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37846 -> 127.0.0.1:5000
-03/24-08:17:40.162679 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:37846 -> 127.0.0.1:5000
-03/24-08:17:40.466278 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37848 -> 127.0.0.1:5000
-03/24-08:17:40.466286 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:37848 -> 127.0.0.1:5000
-03/24-08:17:40.770745 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37854 -> 127.0.0.1:5000
-03/24-08:17:40.770753 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:37854 -> 127.0.0.1:5000
-03/24-08:17:40.921619 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37858 -> 127.0.0.1:5000
-03/24-08:17:41.072485 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37872 -> 127.0.0.1:5000
-03/24-08:17:41.072494 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:37872 -> 127.0.0.1:5000
-03/24-08:17:41.376781 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37884 -> 127.0.0.1:5000
-03/24-08:17:41.376789 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:37884 -> 127.0.0.1:5000
-03/24-08:17:41.428785 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37892 -> 127.0.0.1:5000
-03/24-08:17:41.682004 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37896 -> 127.0.0.1:5000
-03/24-08:17:41.682020 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:37896 -> 127.0.0.1:5000
-03/24-08:17:41.984481 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37912 -> 127.0.0.1:5000
-03/24-08:17:41.984488 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:37912 -> 127.0.0.1:5000
-03/24-08:17:42.206523 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37920 -> 127.0.0.1:5000
-03/24-08:17:42.286167 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37928 -> 127.0.0.1:5000
-03/24-08:17:42.286174 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:37928 -> 127.0.0.1:5000
-03/24-08:17:42.589180 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37938 -> 127.0.0.1:5000
-03/24-08:17:42.589188 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:37938 -> 127.0.0.1:5000
-03/24-08:17:42.893478 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37950 -> 127.0.0.1:5000
-03/24-08:17:42.893484 [**] [1:1000002:6] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:37950 -> 127.0.0.1:5000
-03/24-08:17:43.195210 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37954 -> 127.0.0.1:5000
-03/24-08:17:43.246676 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34496 -> 127.0.0.1:5000
-03/24-08:17:43.297951 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34508 -> 127.0.0.1:5000
-03/24-08:17:43.349423 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34522 -> 127.0.0.1:5000
-03/24-08:17:43.400855 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34538 -> 127.0.0.1:5000
-03/24-08:17:43.452382 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34550 -> 127.0.0.1:5000
-03/24-08:17:43.505446 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34562 -> 127.0.0.1:5000
-03/24-08:17:43.558366 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34576 -> 127.0.0.1:5000
-03/24-08:17:43.611166 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34580 -> 127.0.0.1:5000
-03/24-08:17:43.662581 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34582 -> 127.0.0.1:5000
-03/24-08:17:43.714302 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34588 -> 127.0.0.1:5000
-03/24-08:17:43.765991 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34604 -> 127.0.0.1:5000
-03/24-08:17:43.820478 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34620 -> 127.0.0.1:5000
-03/24-08:17:43.872092 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34624 -> 127.0.0.1:5000
-03/24-08:17:43.923638 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34632 -> 127.0.0.1:5000
-03/24-08:17:43.975153 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34646 -> 127.0.0.1:5000
-03/24-08:17:44.029126 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34658 -> 127.0.0.1:5000
-03/24-08:17:44.080536 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34662 -> 127.0.0.1:5000
-03/24-08:17:44.129760 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34664 -> 127.0.0.1:5000
-03/24-08:17:44.132217 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34674 -> 127.0.0.1:5000
-03/24-08:17:44.186135 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34690 -> 127.0.0.1:5000
-03/24-08:17:44.241011 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34698 -> 127.0.0.1:5000
-03/24-08:17:44.292457 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34702 -> 127.0.0.1:5000
-03/24-08:17:44.343840 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34718 -> 127.0.0.1:5000
-03/24-08:17:44.396468 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34722 -> 127.0.0.1:5000
-03/24-08:17:44.447923 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34732 -> 127.0.0.1:5000
-03/24-08:17:44.499459 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34742 -> 127.0.0.1:5000
-03/24-08:17:44.552090 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34746 -> 127.0.0.1:5000
-03/24-08:17:44.603511 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34752 -> 127.0.0.1:5000
-03/24-08:17:44.656313 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34760 -> 127.0.0.1:5000
-03/24-08:17:44.708330 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34770 -> 127.0.0.1:5000
-03/24-08:17:44.759907 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34786 -> 127.0.0.1:5000
-03/24-08:17:44.811761 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34794 -> 127.0.0.1:5000
-03/24-08:17:44.863973 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34796 -> 127.0.0.1:5000
-03/24-08:17:44.915579 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34808 -> 127.0.0.1:5000
-03/24-08:17:44.967947 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34816 -> 127.0.0.1:5000
-03/24-08:17:45.019424 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34824 -> 127.0.0.1:5000
-03/24-08:17:45.070979 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34830 -> 127.0.0.1:5000
-03/24-08:17:45.122450 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34836 -> 127.0.0.1:5000
-03/24-08:17:45.174030 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34846 -> 127.0.0.1:5000
-03/24-08:17:45.225773 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34856 -> 127.0.0.1:5000
-03/24-08:17:45.277360 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34870 -> 127.0.0.1:5000
-03/24-08:17:45.328737 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34876 -> 127.0.0.1:5000
-03/24-08:17:45.384070 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34890 -> 127.0.0.1:5000
-03/24-08:17:45.435453 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34904 -> 127.0.0.1:5000
-03/24-08:17:45.487516 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34908 -> 127.0.0.1:5000
-03/24-08:17:45.539452 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34922 -> 127.0.0.1:5000
-03/24-08:17:45.592271 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34944 -> 127.0.0.1:5000
-03/24-08:17:45.643975 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34950 -> 127.0.0.1:5000
-03/24-08:17:45.696987 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34960 -> 127.0.0.1:5000
-03/24-08:17:45.748970 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34976 -> 127.0.0.1:5000
-03/24-08:17:45.800484 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34980 -> 127.0.0.1:5000
-03/24-08:17:45.851923 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:34992 -> 127.0.0.1:5000
-03/24-08:17:45.903689 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35006 -> 127.0.0.1:5000
-03/24-08:17:45.955738 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35010 -> 127.0.0.1:5000
-03/24-08:17:46.009568 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35018 -> 127.0.0.1:5000
-03/24-08:17:46.061305 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35030 -> 127.0.0.1:5000
-03/24-08:17:46.112850 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35036 -> 127.0.0.1:5000
-03/24-08:17:46.164273 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35046 -> 127.0.0.1:5000
-03/24-08:17:46.215793 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35058 -> 127.0.0.1:5000
-03/24-08:17:46.267193 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35066 -> 127.0.0.1:5000
-03/24-08:17:46.318621 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35078 -> 127.0.0.1:5000
-03/24-08:17:46.374028 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35084 -> 127.0.0.1:5000
-03/24-08:17:46.425789 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35092 -> 127.0.0.1:5000
-03/24-08:17:46.477710 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35100 -> 127.0.0.1:5000
-03/24-08:17:46.529481 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35104 -> 127.0.0.1:5000
-03/24-08:17:46.583152 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35108 -> 127.0.0.1:5000
-03/24-08:17:46.635180 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35112 -> 127.0.0.1:5000
-03/24-08:17:46.687636 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35116 -> 127.0.0.1:5000
-03/24-08:17:46.739779 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35120 -> 127.0.0.1:5000
-03/24-08:17:46.795571 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35128 -> 127.0.0.1:5000
-03/24-08:17:46.847310 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35144 -> 127.0.0.1:5000
-03/24-08:17:46.899272 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35148 -> 127.0.0.1:5000
-03/24-08:17:46.950674 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35160 -> 127.0.0.1:5000
-03/24-08:17:47.002053 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35168 -> 127.0.0.1:5000
-03/24-08:17:47.054221 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35170 -> 127.0.0.1:5000
-03/24-08:17:47.107998 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35172 -> 127.0.0.1:5000
-03/24-08:17:47.163895 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35186 -> 127.0.0.1:5000
-03/24-08:17:47.244206 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35190 -> 127.0.0.1:5000
-03/24-08:17:47.296675 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35200 -> 127.0.0.1:5000
-03/24-08:17:47.354221 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35208 -> 127.0.0.1:5000
-03/24-08:17:47.412711 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35234 -> 127.0.0.1:5000
-03/24-08:17:47.481913 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35242 -> 127.0.0.1:5000
-03/24-08:17:47.534231 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35250 -> 127.0.0.1:5000
-03/24-08:17:47.585578 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35260 -> 127.0.0.1:5000
-03/24-08:17:47.637096 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35262 -> 127.0.0.1:5000
-03/24-08:17:47.688517 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35272 -> 127.0.0.1:5000
-03/24-08:17:47.739951 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35276 -> 127.0.0.1:5000
-03/24-08:17:47.795814 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35284 -> 127.0.0.1:5000
-03/24-08:17:47.847306 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35294 -> 127.0.0.1:5000
-03/24-08:17:47.899332 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35302 -> 127.0.0.1:5000
-03/24-08:17:47.950999 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35312 -> 127.0.0.1:5000
-03/24-08:17:48.007090 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35328 -> 127.0.0.1:5000
-03/24-08:17:48.058589 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35338 -> 127.0.0.1:5000
-03/24-08:17:48.110228 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35354 -> 127.0.0.1:5000
-03/24-08:17:48.161937 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35358 -> 127.0.0.1:5000
-03/24-08:17:48.215857 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35360 -> 127.0.0.1:5000
-03/24-08:17:48.267930 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35366 -> 127.0.0.1:5000
-03/24-08:17:48.319367 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35380 -> 127.0.0.1:5000
-03/24-08:17:48.370819 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35388 -> 127.0.0.1:5000
-03/24-08:17:48.422367 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35390 -> 127.0.0.1:5000
-03/24-08:17:48.474350 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35394 -> 127.0.0.1:5000
-03/24-08:17:48.526134 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35408 -> 127.0.0.1:5000
-03/24-08:17:48.578589 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35424 -> 127.0.0.1:5000
-03/24-08:17:48.630049 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35440 -> 127.0.0.1:5000
-03/24-08:17:48.682649 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35456 -> 127.0.0.1:5000
-03/24-08:17:48.734092 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35462 -> 127.0.0.1:5000
-03/24-08:17:48.786506 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35472 -> 127.0.0.1:5000
-03/24-08:17:48.838476 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35486 -> 127.0.0.1:5000
-03/24-08:17:48.890289 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35496 -> 127.0.0.1:5000
-03/24-08:17:48.943306 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35512 -> 127.0.0.1:5000
-03/24-08:17:48.995618 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35520 -> 127.0.0.1:5000
-03/24-08:17:49.046963 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35534 -> 127.0.0.1:5000
-03/24-08:17:49.099118 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35546 -> 127.0.0.1:5000
-03/24-08:17:49.150515 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35558 -> 127.0.0.1:5000
-03/24-08:17:49.201973 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35570 -> 127.0.0.1:5000
-03/24-08:17:49.253599 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35574 -> 127.0.0.1:5000
-03/24-08:17:49.304909 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35576 -> 127.0.0.1:5000
-03/24-08:17:49.356178 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35592 -> 127.0.0.1:5000
-03/24-08:17:49.407499 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35606 -> 127.0.0.1:5000
-03/24-08:17:49.459155 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35608 -> 127.0.0.1:5000
-03/24-08:17:49.511220 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35620 -> 127.0.0.1:5000
-03/24-08:17:49.566682 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35634 -> 127.0.0.1:5000
-03/24-08:17:49.618958 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35640 -> 127.0.0.1:5000
-03/24-08:17:49.670427 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35642 -> 127.0.0.1:5000
-03/24-08:17:49.722369 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35644 -> 127.0.0.1:5000
-03/24-08:17:49.774603 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35652 -> 127.0.0.1:5000
-03/24-08:17:49.826515 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35656 -> 127.0.0.1:5000
-03/24-08:17:49.879264 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35662 -> 127.0.0.1:5000
-03/24-08:17:49.931396 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35672 -> 127.0.0.1:5000
-03/24-08:17:49.983389 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35684 -> 127.0.0.1:5000
-03/24-08:17:50.037186 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35694 -> 127.0.0.1:5000
-03/24-08:17:50.090326 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35710 -> 127.0.0.1:5000
-03/24-08:17:50.141758 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35720 -> 127.0.0.1:5000
-03/24-08:17:50.193280 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35728 -> 127.0.0.1:5000
-03/24-08:17:50.244668 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35738 -> 127.0.0.1:5000
-03/24-08:17:50.296170 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35750 -> 127.0.0.1:5000
-03/24-08:17:50.347764 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35752 -> 127.0.0.1:5000
-03/24-08:17:50.399896 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35754 -> 127.0.0.1:5000
-03/24-08:17:50.451510 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35770 -> 127.0.0.1:5000
-03/24-08:17:50.503633 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35784 -> 127.0.0.1:5000
-03/24-08:17:50.555107 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35788 -> 127.0.0.1:5000
-03/24-08:17:50.606682 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35798 -> 127.0.0.1:5000
-03/24-08:17:50.658786 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35812 -> 127.0.0.1:5000
-03/24-08:17:50.710996 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35814 -> 127.0.0.1:5000
-03/24-08:17:50.762588 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35816 -> 127.0.0.1:5000
-03/24-08:17:50.815822 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35824 -> 127.0.0.1:5000
-03/24-08:17:50.867169 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35834 -> 127.0.0.1:5000
-03/24-08:17:50.919363 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35842 -> 127.0.0.1:5000
-03/24-08:17:50.971668 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35860 -> 127.0.0.1:5000
-03/24-08:17:51.027332 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35872 -> 127.0.0.1:5000
-03/24-08:17:51.079441 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35876 -> 127.0.0.1:5000
-03/24-08:17:51.131236 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35880 -> 127.0.0.1:5000
-03/24-08:17:51.187273 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35888 -> 127.0.0.1:5000
-03/24-08:17:51.239401 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35904 -> 127.0.0.1:5000
-03/24-08:17:51.296277 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35906 -> 127.0.0.1:5000
-03/24-08:17:51.348024 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35914 -> 127.0.0.1:5000
-03/24-08:17:51.400349 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35928 -> 127.0.0.1:5000
-03/24-08:17:51.451666 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35938 -> 127.0.0.1:5000
-03/24-08:17:51.503615 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35940 -> 127.0.0.1:5000
-03/24-08:17:51.558144 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35944 -> 127.0.0.1:5000
-03/24-08:17:51.610099 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35958 -> 127.0.0.1:5000
-03/24-08:17:51.661637 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35966 -> 127.0.0.1:5000
-03/24-08:17:51.713388 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35970 -> 127.0.0.1:5000
-03/24-08:17:51.765121 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35974 -> 127.0.0.1:5000
-03/24-08:17:51.816828 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35980 -> 127.0.0.1:5000
-03/24-08:17:51.868259 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:35990 -> 127.0.0.1:5000
-03/24-08:17:51.919857 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:36000 -> 127.0.0.1:5000
-03/24-08:17:51.971679 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:36004 -> 127.0.0.1:5000
-03/24-08:17:52.024181 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:36016 -> 127.0.0.1:5000
-03/24-08:17:52.075595 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:36022 -> 127.0.0.1:5000
-03/24-08:17:52.127028 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:36038 -> 127.0.0.1:5000
-03/24-08:17:52.178408 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:36040 -> 127.0.0.1:5000
-03/24-08:17:52.230173 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:36048 -> 127.0.0.1:5000
-03/24-08:17:52.281616 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:36056 -> 127.0.0.1:5000
-03/24-08:17:52.334100 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:36062 -> 127.0.0.1:5000
-03/24-08:17:52.385808 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:36068 -> 127.0.0.1:5000
-03/24-08:17:52.437722 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:36072 -> 127.0.0.1:5000
-03/24-08:17:52.490498 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:36080 -> 127.0.0.1:5000
-03/24-08:17:52.546503 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:36088 -> 127.0.0.1:5000
-03/24-08:17:52.598617 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:36098 -> 127.0.0.1:5000
-03/24-08:17:52.650912 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:36112 -> 127.0.0.1:5000
-03/24-08:17:52.702396 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:36128 -> 127.0.0.1:5000
-03/24-08:17:52.754023 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:36134 -> 127.0.0.1:5000
-03/24-08:17:52.805627 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:36140 -> 127.0.0.1:5000
-03/24-08:17:52.866251 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:36146 -> 127.0.0.1:5000
-03/24-08:17:52.919572 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:36160 -> 127.0.0.1:5000
-03/24-08:17:52.971446 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:36170 -> 127.0.0.1:5000
-03/24-08:17:53.022900 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:36172 -> 127.0.0.1:5000
-03/24-08:17:53.074776 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:36180 -> 127.0.0.1:5000
-03/24-08:17:53.126407 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:36188 -> 127.0.0.1:5000
-03/24-08:17:53.178080 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:36204 -> 127.0.0.1:5000
-03/24-08:17:53.207029 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:36206 -> 127.0.0.1:5000
-03/24-08:17:53.230873 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:54230 -> 127.0.0.1:5000
-03/24-08:17:53.282924 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:54244 -> 127.0.0.1:5000
-03/24-08:17:53.339176 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:54256 -> 127.0.0.1:5000
-03/24-08:17:53.390998 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:54264 -> 127.0.0.1:5000
-03/24-08:17:53.442870 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:54266 -> 127.0.0.1:5000
-03/24-08:17:53.494499 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:54270 -> 127.0.0.1:5000
-03/24-08:17:53.549598 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:54272 -> 127.0.0.1:5000
-03/24-08:17:53.601109 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:54288 -> 127.0.0.1:5000
-03/24-08:17:53.652499 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:54296 -> 127.0.0.1:5000
-03/24-08:17:53.704169 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:54302 -> 127.0.0.1:5000
-03/24-08:17:54.007393 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:54318 -> 127.0.0.1:5000
-03/24-08:17:54.309220 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:54340 -> 127.0.0.1:5000
-03/24-08:17:54.611587 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:54352 -> 127.0.0.1:5000
-03/24-08:17:54.913187 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:54356 -> 127.0.0.1:5000
-03/24-08:17:55.215689 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:54362 -> 127.0.0.1:5000
-03/24-08:17:55.819207 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:54382 -> 127.0.0.1:5000
-03/24-08:17:56.120341 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:54392 -> 127.0.0.1:5000
-03/24-08:17:56.120826 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:54398 -> 127.0.0.1:5000
-03/24-08:17:56.424203 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:54400 -> 127.0.0.1:5000
-03/24-08:17:56.726360 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:54402 -> 127.0.0.1:5000
-03/24-08:17:57.030946 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:54414 -> 127.0.0.1:5000
-03/24-08:17:57.332605 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:54420 -> 127.0.0.1:5000
-03/24-08:17:57.937279 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:54440 -> 127.0.0.1:5000
-03/24-08:17:58.243609 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:54456 -> 127.0.0.1:5000
-03/24-08:17:58.545299 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:54458 -> 127.0.0.1:5000
-03/24-08:17:58.851078 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:54462 -> 127.0.0.1:5000
-03/24-08:17:59.152714 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:54478 -> 127.0.0.1:5000
-03/24-08:17:59.459283 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:54480 -> 127.0.0.1:5000
-03/24-08:17:59.760967 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:54496 -> 127.0.0.1:5000
-03/24-08:18:00.063265 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:54510 -> 127.0.0.1:5000
-03/24-08:18:00.366193 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:54524 -> 127.0.0.1:5000
-03/24-08:18:00.416944 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:54536 -> 127.0.0.1:5000
-03/24-08:18:00.667862 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:54538 -> 127.0.0.1:5000
-03/24-08:18:00.971872 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:54552 -> 127.0.0.1:5000
-03/24-08:18:01.277493 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:54556 -> 127.0.0.1:5000
-03/24-08:18:01.581836 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:54558 -> 127.0.0.1:5000
-03/24-08:18:02.189871 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:54574 -> 127.0.0.1:5000
-03/24-08:18:02.492298 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:54600 -> 127.0.0.1:5000
-03/24-08:18:02.795123 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:54604 -> 127.0.0.1:5000
-03/24-08:18:03.098194 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:54616 -> 127.0.0.1:5000
-03/24-08:18:03.402800 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37554 -> 127.0.0.1:5000
-03/24-08:18:03.706150 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37564 -> 127.0.0.1:5000
-03/24-08:18:04.319692 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37588 -> 127.0.0.1:5000
-03/24-08:18:04.621975 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37596 -> 127.0.0.1:5000
-03/24-08:18:04.925915 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37604 -> 127.0.0.1:5000
-03/24-08:18:05.228166 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37610 -> 127.0.0.1:5000
-03/24-08:18:05.533112 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37622 -> 127.0.0.1:5000
-03/24-08:18:05.838687 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37628 -> 127.0.0.1:5000
-03/24-08:18:06.140862 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37656 -> 127.0.0.1:5000
-03/24-08:18:06.442968 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37664 -> 127.0.0.1:5000
-03/24-08:18:06.744678 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37670 -> 127.0.0.1:5000
-03/24-08:18:07.043256 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37676 -> 127.0.0.1:5000
-03/24-08:18:07.046290 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37692 -> 127.0.0.1:5000
-03/24-08:18:07.348597 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37696 -> 127.0.0.1:5000
-03/24-08:18:07.650574 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37710 -> 127.0.0.1:5000
-03/24-08:18:07.965672 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37724 -> 127.0.0.1:5000
-03/24-08:18:08.571610 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37744 -> 127.0.0.1:5000
-03/24-08:18:08.873521 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37770 -> 127.0.0.1:5000
-03/24-08:18:09.175893 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37778 -> 127.0.0.1:5000
-03/24-08:18:09.480636 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37786 -> 127.0.0.1:5000
-03/24-08:18:09.784763 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37798 -> 127.0.0.1:5000
-03/24-08:18:10.086354 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37826 -> 127.0.0.1:5000
-03/24-08:18:10.692357 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37842 -> 127.0.0.1:5000
-03/24-08:18:10.997923 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37850 -> 127.0.0.1:5000
-03/24-08:18:11.300908 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37870 -> 127.0.0.1:5000
-03/24-08:18:11.604012 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37886 -> 127.0.0.1:5000
-03/24-08:18:11.905647 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37892 -> 127.0.0.1:5000
-03/24-08:18:12.207331 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37898 -> 127.0.0.1:5000
-03/24-08:18:12.513109 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37906 -> 127.0.0.1:5000
-03/24-08:18:12.814860 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37920 -> 127.0.0.1:5000
-03/24-08:18:13.118259 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:37924 -> 127.0.0.1:5000
-03/24-08:18:13.424427 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42110 -> 127.0.0.1:5000
-03/24-08:18:13.726090 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42116 -> 127.0.0.1:5000
-03/24-08:18:14.027837 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42138 -> 127.0.0.1:5000
-03/24-08:18:14.329479 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42146 -> 127.0.0.1:5000
-03/24-08:18:14.933194 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42164 -> 127.0.0.1:5000
-03/24-08:18:15.235656 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42180 -> 127.0.0.1:5000
-03/24-08:18:15.522726 [**] [1:1000003:6] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42194 -> 127.0.0.1:5000
-03/24-08:18:15.537353 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42200 -> 127.0.0.1:5000
-03/24-08:18:15.839227 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42204 -> 127.0.0.1:5000
-03/24-08:18:16.143377 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42214 -> 127.0.0.1:5000
-03/24-08:18:16.446339 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42226 -> 127.0.0.1:5000
-03/24-08:18:17.053857 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42248 -> 127.0.0.1:5000
-03/24-08:18:17.355873 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42254 -> 127.0.0.1:5000
-03/24-08:18:17.657802 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42266 -> 127.0.0.1:5000
-03/24-08:18:17.960626 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42274 -> 127.0.0.1:5000
-03/24-08:18:18.262270 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42296 -> 127.0.0.1:5000
-03/24-08:18:18.563903 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42312 -> 127.0.0.1:5000
-03/24-08:18:18.867487 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42316 -> 127.0.0.1:5000
-03/24-08:18:19.169151 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42332 -> 127.0.0.1:5000
-03/24-08:18:19.474540 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42340 -> 127.0.0.1:5000
-03/24-08:18:19.777586 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42348 -> 127.0.0.1:5000
-03/24-08:18:20.079295 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42370 -> 127.0.0.1:5000
-03/24-08:18:20.381361 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42372 -> 127.0.0.1:5000
-03/24-08:18:20.683201 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42378 -> 127.0.0.1:5000
-03/24-08:18:21.288708 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42396 -> 127.0.0.1:5000
-03/24-08:18:21.591154 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42410 -> 127.0.0.1:5000
-03/24-08:18:21.895215 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42434 -> 127.0.0.1:5000
-03/24-08:18:22.201078 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42448 -> 127.0.0.1:5000
-03/24-08:18:22.503101 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42458 -> 127.0.0.1:5000
-03/24-08:18:22.804863 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42476 -> 127.0.0.1:5000
-03/24-08:18:23.411506 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:59870 -> 127.0.0.1:5000
-03/24-08:18:23.713693 [**] [1:1000004:6] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:59872 -> 127.0.0.1:5000
+03/25-06:35:07.694378 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:52974 -> 127.0.0.1:5000
+03/25-06:35:10.671913 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:53022 -> 127.0.0.1:5000
+03/25-06:35:10.674511 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:53026 -> 127.0.0.1:5000
+03/25-06:35:10.978323 [**] [1:1000005:1] "[ATTACK] SQL Injection - Numeric/Comment Based" [**] [Priority: 0] {TCP} 127.0.0.1:53028 -> 127.0.0.1:5000
+03/25-06:35:10.978323 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:53028 -> 127.0.0.1:5000
+03/25-06:35:11.280062 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:53044 -> 127.0.0.1:5000
+03/25-06:35:11.582352 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:39880 -> 127.0.0.1:5000
+03/25-06:35:11.887939 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:39884 -> 127.0.0.1:5000
+03/25-06:35:12.189728 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:39888 -> 127.0.0.1:5000
+03/25-06:35:12.491373 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:39914 -> 127.0.0.1:5000
+03/25-06:35:12.794269 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:39924 -> 127.0.0.1:5000
+03/25-06:35:13.096018 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:39928 -> 127.0.0.1:5000
+03/25-06:35:13.397949 [**] [1:1000005:1] "[ATTACK] SQL Injection - Numeric/Comment Based" [**] [Priority: 0] {TCP} 127.0.0.1:39950 -> 127.0.0.1:5000
+03/25-06:35:13.699667 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:39966 -> 127.0.0.1:5000
+03/25-06:35:14.002555 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:39982 -> 127.0.0.1:5000
+03/25-06:35:14.304401 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:39996 -> 127.0.0.1:5000
+03/25-06:35:14.606153 [**] [1:1000005:1] "[ATTACK] SQL Injection - Numeric/Comment Based" [**] [Priority: 0] {TCP} 127.0.0.1:40008 -> 127.0.0.1:5000
+03/25-06:35:14.910704 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:40034 -> 127.0.0.1:5000
+03/25-06:35:15.212983 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:40046 -> 127.0.0.1:5000
+03/25-06:35:15.519109 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:40052 -> 127.0.0.1:5000
+03/25-06:35:15.823385 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:40068 -> 127.0.0.1:5000
+03/25-06:35:16.126846 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:40070 -> 127.0.0.1:5000
+03/25-06:35:16.431189 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:40080 -> 127.0.0.1:5000
+03/25-06:35:16.733430 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:40088 -> 127.0.0.1:5000
+03/25-06:35:17.035150 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:40104 -> 127.0.0.1:5000
+03/25-06:35:17.340798 [**] [1:1000005:1] "[ATTACK] SQL Injection - Numeric/Comment Based" [**] [Priority: 0] {TCP} 127.0.0.1:40114 -> 127.0.0.1:5000
+03/25-06:35:17.340798 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:40114 -> 127.0.0.1:5000
+03/25-06:35:17.642615 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:40128 -> 127.0.0.1:5000
+03/25-06:35:17.945725 [**] [1:1000005:1] "[ATTACK] SQL Injection - Numeric/Comment Based" [**] [Priority: 0] {TCP} 127.0.0.1:40140 -> 127.0.0.1:5000
+03/25-06:35:17.945725 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:40140 -> 127.0.0.1:5000
+03/25-06:35:18.247616 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:40158 -> 127.0.0.1:5000
+03/25-06:35:18.549691 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:40170 -> 127.0.0.1:5000
+03/25-06:35:18.852078 [**] [1:1000005:1] "[ATTACK] SQL Injection - Numeric/Comment Based" [**] [Priority: 0] {TCP} 127.0.0.1:40178 -> 127.0.0.1:5000
+03/25-06:35:19.154271 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:40184 -> 127.0.0.1:5000
+03/25-06:35:19.459035 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:40212 -> 127.0.0.1:5000
+03/25-06:35:19.761444 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:40218 -> 127.0.0.1:5000
+03/25-06:35:20.067610 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:40234 -> 127.0.0.1:5000
+03/25-06:35:20.369490 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:40248 -> 127.0.0.1:5000
+03/25-06:35:20.672556 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:40252 -> 127.0.0.1:5000
+03/25-06:35:20.974512 [**] [1:1000005:1] "[ATTACK] SQL Injection - Numeric/Comment Based" [**] [Priority: 0] {TCP} 127.0.0.1:40268 -> 127.0.0.1:5000
+03/25-06:35:20.974512 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:40268 -> 127.0.0.1:5000
+03/25-06:35:21.277503 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:40280 -> 127.0.0.1:5000
+03/25-06:35:21.579208 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:38586 -> 127.0.0.1:5000
+03/25-06:35:21.880673 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:38592 -> 127.0.0.1:5000
+03/25-06:35:22.182383 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:38600 -> 127.0.0.1:5000
+03/25-06:35:22.484127 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:38604 -> 127.0.0.1:5000
+03/25-06:35:22.785949 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:38612 -> 127.0.0.1:5000
+03/25-06:35:23.087773 [**] [1:1000005:1] "[ATTACK] SQL Injection - Numeric/Comment Based" [**] [Priority: 0] {TCP} 127.0.0.1:38624 -> 127.0.0.1:5000
+03/25-06:35:23.087773 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:38624 -> 127.0.0.1:5000
+03/25-06:35:23.389928 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:38636 -> 127.0.0.1:5000
+03/25-06:35:23.693197 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:38646 -> 127.0.0.1:5000
+03/25-06:35:23.994958 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:38666 -> 127.0.0.1:5000
+03/25-06:35:24.296614 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:38678 -> 127.0.0.1:5000
+03/25-06:35:24.598278 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:38684 -> 127.0.0.1:5000
+03/25-06:35:24.900046 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:38704 -> 127.0.0.1:5000
+03/25-06:35:25.202067 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:38706 -> 127.0.0.1:5000
+03/25-06:35:25.503831 [**] [1:1000005:1] "[ATTACK] SQL Injection - Numeric/Comment Based" [**] [Priority: 0] {TCP} 127.0.0.1:38722 -> 127.0.0.1:5000
+03/25-06:35:25.805407 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:38724 -> 127.0.0.1:5000
+03/25-06:35:26.107175 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:38726 -> 127.0.0.1:5000
+03/25-06:35:26.410634 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:38732 -> 127.0.0.1:5000
+03/25-06:35:26.712640 [**] [1:1000005:1] "[ATTACK] SQL Injection - Numeric/Comment Based" [**] [Priority: 0] {TCP} 127.0.0.1:38744 -> 127.0.0.1:5000
+03/25-06:35:27.014574 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:38746 -> 127.0.0.1:5000
+03/25-06:35:27.316458 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:38760 -> 127.0.0.1:5000
+03/25-06:35:27.618596 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:38766 -> 127.0.0.1:5000
+03/25-06:35:27.920613 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:38782 -> 127.0.0.1:5000
+03/25-06:35:28.222566 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:38804 -> 127.0.0.1:5000
+03/25-06:35:28.525065 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:38814 -> 127.0.0.1:5000
+03/25-06:35:28.826559 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:38816 -> 127.0.0.1:5000
+03/25-06:35:29.130308 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:38832 -> 127.0.0.1:5000
+03/25-06:35:29.433285 [**] [1:1000005:1] "[ATTACK] SQL Injection - Numeric/Comment Based" [**] [Priority: 0] {TCP} 127.0.0.1:38854 -> 127.0.0.1:5000
+03/25-06:35:29.433285 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:38854 -> 127.0.0.1:5000
+03/25-06:35:29.735008 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:38860 -> 127.0.0.1:5000
+03/25-06:35:30.037148 [**] [1:1000005:1] "[ATTACK] SQL Injection - Numeric/Comment Based" [**] [Priority: 0] {TCP} 127.0.0.1:38874 -> 127.0.0.1:5000
+03/25-06:35:30.037148 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:38874 -> 127.0.0.1:5000
+03/25-06:35:30.340141 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:38878 -> 127.0.0.1:5000
+03/25-06:35:30.644964 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:38882 -> 127.0.0.1:5000
+03/25-06:35:30.947234 [**] [1:1000005:1] "[ATTACK] SQL Injection - Numeric/Comment Based" [**] [Priority: 0] {TCP} 127.0.0.1:38886 -> 127.0.0.1:5000
+03/25-06:35:31.252319 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:38892 -> 127.0.0.1:5000
+03/25-06:35:31.554127 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:59402 -> 127.0.0.1:5000
+03/25-06:35:31.856307 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:59404 -> 127.0.0.1:5000
+03/25-06:35:32.159852 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:59418 -> 127.0.0.1:5000
+03/25-06:35:32.461619 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:59428 -> 127.0.0.1:5000
+03/25-06:35:32.763516 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:59440 -> 127.0.0.1:5000
+03/25-06:35:33.065435 [**] [1:1000005:1] "[ATTACK] SQL Injection - Numeric/Comment Based" [**] [Priority: 0] {TCP} 127.0.0.1:59444 -> 127.0.0.1:5000
+03/25-06:35:33.065435 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:59444 -> 127.0.0.1:5000
+03/25-06:35:33.367158 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:59450 -> 127.0.0.1:5000
+03/25-06:35:33.669173 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:59454 -> 127.0.0.1:5000
+03/25-06:35:33.970778 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:59478 -> 127.0.0.1:5000
+03/25-06:35:34.274020 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:59494 -> 127.0.0.1:5000
+03/25-06:35:34.577174 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:59510 -> 127.0.0.1:5000
+03/25-06:35:34.878905 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:59512 -> 127.0.0.1:5000
+03/25-06:35:35.182846 [**] [1:1000005:1] "[ATTACK] SQL Injection - Numeric/Comment Based" [**] [Priority: 0] {TCP} 127.0.0.1:59536 -> 127.0.0.1:5000
+03/25-06:35:35.182846 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:59536 -> 127.0.0.1:5000
+03/25-06:35:35.484689 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:59538 -> 127.0.0.1:5000
+03/25-06:35:35.786557 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:59564 -> 127.0.0.1:5000
+03/25-06:35:36.092991 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:59566 -> 127.0.0.1:5000
+03/25-06:35:36.394805 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:59572 -> 127.0.0.1:5000
+03/25-06:35:36.696631 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:59576 -> 127.0.0.1:5000
+03/25-06:35:36.999256 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:59590 -> 127.0.0.1:5000
+03/25-06:35:37.300935 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:59606 -> 127.0.0.1:5000
+03/25-06:35:37.604863 [**] [1:1000005:1] "[ATTACK] SQL Injection - Numeric/Comment Based" [**] [Priority: 0] {TCP} 127.0.0.1:59616 -> 127.0.0.1:5000
+03/25-06:35:37.906626 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:59618 -> 127.0.0.1:5000
+03/25-06:35:38.208357 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:59650 -> 127.0.0.1:5000
+03/25-06:35:38.512411 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:59652 -> 127.0.0.1:5000
+03/25-06:35:38.817456 [**] [1:1000005:1] "[ATTACK] SQL Injection - Numeric/Comment Based" [**] [Priority: 0] {TCP} 127.0.0.1:59656 -> 127.0.0.1:5000
+03/25-06:35:39.123529 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:59672 -> 127.0.0.1:5000
+03/25-06:35:39.425436 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:59684 -> 127.0.0.1:5000
+03/25-06:35:39.727340 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:59688 -> 127.0.0.1:5000
+03/25-06:35:40.033207 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:59700 -> 127.0.0.1:5000
+03/25-06:35:40.334969 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:59720 -> 127.0.0.1:5000
+03/25-06:35:40.636646 [**] [1:1000001:7] "[ATTACK] SQL Injection - Quote Based" [**] [Priority: 0] {TCP} 127.0.0.1:59726 -> 127.0.0.1:5000
+03/25-06:35:40.938385 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:59728 -> 127.0.0.1:5000
+03/25-06:35:41.244493 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:59736 -> 127.0.0.1:5000
+03/25-06:35:41.546241 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58172 -> 127.0.0.1:5000
+03/25-06:35:41.852260 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58186 -> 127.0.0.1:5000
+03/25-06:35:42.154034 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58198 -> 127.0.0.1:5000
+03/25-06:35:42.455795 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58202 -> 127.0.0.1:5000
+03/25-06:35:42.760719 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58214 -> 127.0.0.1:5000
+03/25-06:35:43.062321 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58236 -> 127.0.0.1:5000
+03/25-06:35:43.363954 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58248 -> 127.0.0.1:5000
+03/25-06:35:43.665715 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58256 -> 127.0.0.1:5000
+03/25-06:35:43.967455 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58272 -> 127.0.0.1:5000
+03/25-06:35:44.273910 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58286 -> 127.0.0.1:5000
+03/25-06:35:44.575629 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58300 -> 127.0.0.1:5000
+03/25-06:35:44.881226 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58308 -> 127.0.0.1:5000
+03/25-06:35:45.187466 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58312 -> 127.0.0.1:5000
+03/25-06:35:45.491073 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58330 -> 127.0.0.1:5000
+03/25-06:35:45.795178 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58340 -> 127.0.0.1:5000
+03/25-06:35:46.100177 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58346 -> 127.0.0.1:5000
+03/25-06:35:46.401936 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58358 -> 127.0.0.1:5000
+03/25-06:35:46.703671 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58370 -> 127.0.0.1:5000
+03/25-06:35:47.005385 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58392 -> 127.0.0.1:5000
+03/25-06:35:47.308522 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58396 -> 127.0.0.1:5000
+03/25-06:35:47.617094 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58414 -> 127.0.0.1:5000
+03/25-06:35:47.924218 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58422 -> 127.0.0.1:5000
+03/25-06:35:48.226305 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58432 -> 127.0.0.1:5000
+03/25-06:35:48.530173 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58442 -> 127.0.0.1:5000
+03/25-06:35:48.831987 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58454 -> 127.0.0.1:5000
+03/25-06:35:49.133608 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58464 -> 127.0.0.1:5000
+03/25-06:35:49.439905 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58470 -> 127.0.0.1:5000
+03/25-06:35:49.742104 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58484 -> 127.0.0.1:5000
+03/25-06:35:50.044252 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58504 -> 127.0.0.1:5000
+03/25-06:35:50.346300 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58514 -> 127.0.0.1:5000
+03/25-06:35:50.648333 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58526 -> 127.0.0.1:5000
+03/25-06:35:50.950861 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58552 -> 127.0.0.1:5000
+03/25-06:35:51.261846 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:58560 -> 127.0.0.1:5000
+03/25-06:35:51.563579 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:42216 -> 127.0.0.1:5000
+03/25-06:35:51.868007 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:42232 -> 127.0.0.1:5000
+03/25-06:35:52.173649 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:42236 -> 127.0.0.1:5000
+03/25-06:35:52.475693 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:42246 -> 127.0.0.1:5000
+03/25-06:35:52.777406 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:42248 -> 127.0.0.1:5000
+03/25-06:35:53.083806 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:42252 -> 127.0.0.1:5000
+03/25-06:35:53.385365 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:42268 -> 127.0.0.1:5000
+03/25-06:35:53.688271 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:42288 -> 127.0.0.1:5000
+03/25-06:35:53.990141 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:42298 -> 127.0.0.1:5000
+03/25-06:35:54.293818 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:42304 -> 127.0.0.1:5000
+03/25-06:35:54.595971 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:42320 -> 127.0.0.1:5000
+03/25-06:35:54.897811 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:42328 -> 127.0.0.1:5000
+03/25-06:35:55.199518 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:42334 -> 127.0.0.1:5000
+03/25-06:35:55.501201 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42364 -> 127.0.0.1:5000
+03/25-06:35:55.501208 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:42364 -> 127.0.0.1:5000
+03/25-06:35:55.802649 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42368 -> 127.0.0.1:5000
+03/25-06:35:55.802657 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:42368 -> 127.0.0.1:5000
+03/25-06:35:56.106196 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42384 -> 127.0.0.1:5000
+03/25-06:35:56.106204 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:42384 -> 127.0.0.1:5000
+03/25-06:35:56.408036 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42386 -> 127.0.0.1:5000
+03/25-06:35:56.408047 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:42386 -> 127.0.0.1:5000
+03/25-06:35:56.710256 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42392 -> 127.0.0.1:5000
+03/25-06:35:56.710269 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:42392 -> 127.0.0.1:5000
+03/25-06:35:57.017005 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42396 -> 127.0.0.1:5000
+03/25-06:35:57.017012 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:42396 -> 127.0.0.1:5000
+03/25-06:35:57.318686 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42408 -> 127.0.0.1:5000
+03/25-06:35:57.318693 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:42408 -> 127.0.0.1:5000
+03/25-06:35:57.623697 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42424 -> 127.0.0.1:5000
+03/25-06:35:57.623704 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:42424 -> 127.0.0.1:5000
+03/25-06:35:57.929593 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42428 -> 127.0.0.1:5000
+03/25-06:35:57.929600 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:42428 -> 127.0.0.1:5000
+03/25-06:35:58.231562 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42432 -> 127.0.0.1:5000
+03/25-06:35:58.231569 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:42432 -> 127.0.0.1:5000
+03/25-06:35:58.537877 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42448 -> 127.0.0.1:5000
+03/25-06:35:58.537886 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:42448 -> 127.0.0.1:5000
+03/25-06:35:58.839464 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42450 -> 127.0.0.1:5000
+03/25-06:35:58.839472 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:42450 -> 127.0.0.1:5000
+03/25-06:35:59.144170 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42456 -> 127.0.0.1:5000
+03/25-06:35:59.144178 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:42456 -> 127.0.0.1:5000
+03/25-06:35:59.445930 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42488 -> 127.0.0.1:5000
+03/25-06:35:59.445936 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:42488 -> 127.0.0.1:5000
+03/25-06:35:59.747732 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42502 -> 127.0.0.1:5000
+03/25-06:35:59.747739 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:42502 -> 127.0.0.1:5000
+03/25-06:36:00.049708 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42506 -> 127.0.0.1:5000
+03/25-06:36:00.049716 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:42506 -> 127.0.0.1:5000
+03/25-06:36:00.355849 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42508 -> 127.0.0.1:5000
+03/25-06:36:00.355857 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:42508 -> 127.0.0.1:5000
+03/25-06:36:00.659548 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42530 -> 127.0.0.1:5000
+03/25-06:36:00.659554 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:42530 -> 127.0.0.1:5000
+03/25-06:36:00.961419 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42534 -> 127.0.0.1:5000
+03/25-06:36:00.961427 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:42534 -> 127.0.0.1:5000
+03/25-06:36:01.265211 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42542 -> 127.0.0.1:5000
+03/25-06:36:01.265219 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:42542 -> 127.0.0.1:5000
+03/25-06:36:01.566965 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:57462 -> 127.0.0.1:5000
+03/25-06:36:01.566973 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:57462 -> 127.0.0.1:5000
+03/25-06:36:01.869067 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:57484 -> 127.0.0.1:5000
+03/25-06:36:01.869074 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:57484 -> 127.0.0.1:5000
+03/25-06:36:02.175612 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:57496 -> 127.0.0.1:5000
+03/25-06:36:02.175623 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:57496 -> 127.0.0.1:5000
+03/25-06:36:02.478114 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:57502 -> 127.0.0.1:5000
+03/25-06:36:02.478122 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:57502 -> 127.0.0.1:5000
+03/25-06:36:02.779885 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:57518 -> 127.0.0.1:5000
+03/25-06:36:02.779893 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:57518 -> 127.0.0.1:5000
+03/25-06:36:03.086166 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:57528 -> 127.0.0.1:5000
+03/25-06:36:03.086173 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:57528 -> 127.0.0.1:5000
+03/25-06:36:03.387844 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:57542 -> 127.0.0.1:5000
+03/25-06:36:03.387851 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:57542 -> 127.0.0.1:5000
+03/25-06:36:03.689809 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:57548 -> 127.0.0.1:5000
+03/25-06:36:03.689817 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:57548 -> 127.0.0.1:5000
+03/25-06:36:03.991464 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:57560 -> 127.0.0.1:5000
+03/25-06:36:03.991471 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:57560 -> 127.0.0.1:5000
+03/25-06:36:04.296412 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:57564 -> 127.0.0.1:5000
+03/25-06:36:04.296420 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:57564 -> 127.0.0.1:5000
+03/25-06:36:04.598189 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:57568 -> 127.0.0.1:5000
+03/25-06:36:04.598197 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:57568 -> 127.0.0.1:5000
+03/25-06:36:04.900236 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:57576 -> 127.0.0.1:5000
+03/25-06:36:04.900245 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:57576 -> 127.0.0.1:5000
+03/25-06:36:05.168052 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:57582 -> 127.0.0.1:5000
+03/25-06:36:05.201946 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:57598 -> 127.0.0.1:5000
+03/25-06:36:05.201954 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:57598 -> 127.0.0.1:5000
+03/25-06:36:05.503651 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:57612 -> 127.0.0.1:5000
+03/25-06:36:05.503695 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:57612 -> 127.0.0.1:5000
+03/25-06:36:05.807926 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:57616 -> 127.0.0.1:5000
+03/25-06:36:05.807933 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:57616 -> 127.0.0.1:5000
+03/25-06:36:06.113743 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:57626 -> 127.0.0.1:5000
+03/25-06:36:06.113751 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:57626 -> 127.0.0.1:5000
+03/25-06:36:06.415533 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:57632 -> 127.0.0.1:5000
+03/25-06:36:06.415541 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:57632 -> 127.0.0.1:5000
+03/25-06:36:06.718559 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:57638 -> 127.0.0.1:5000
+03/25-06:36:06.718565 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:57638 -> 127.0.0.1:5000
+03/25-06:36:07.020665 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:57652 -> 127.0.0.1:5000
+03/25-06:36:07.020672 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:57652 -> 127.0.0.1:5000
+03/25-06:36:07.327031 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:57674 -> 127.0.0.1:5000
+03/25-06:36:07.327039 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:57674 -> 127.0.0.1:5000
+03/25-06:36:07.628916 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:57690 -> 127.0.0.1:5000
+03/25-06:36:07.628926 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:57690 -> 127.0.0.1:5000
+03/25-06:36:07.935330 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:57700 -> 127.0.0.1:5000
+03/25-06:36:07.935338 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:57700 -> 127.0.0.1:5000
+03/25-06:36:08.239298 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:57714 -> 127.0.0.1:5000
+03/25-06:36:08.239305 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:57714 -> 127.0.0.1:5000
+03/25-06:36:08.541086 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:57716 -> 127.0.0.1:5000
+03/25-06:36:08.541093 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:57716 -> 127.0.0.1:5000
+03/25-06:36:08.842831 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:57728 -> 127.0.0.1:5000
+03/25-06:36:08.842839 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:57728 -> 127.0.0.1:5000
+03/25-06:36:08.997150 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:57730 -> 127.0.0.1:5000
+03/25-06:36:09.144546 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:57736 -> 127.0.0.1:5000
+03/25-06:36:09.144553 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:57736 -> 127.0.0.1:5000
+03/25-06:36:09.448214 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:57744 -> 127.0.0.1:5000
+03/25-06:36:09.448221 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:57744 -> 127.0.0.1:5000
+03/25-06:36:09.750100 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:57754 -> 127.0.0.1:5000
+03/25-06:36:09.750108 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:57754 -> 127.0.0.1:5000
+03/25-06:36:10.051837 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:57768 -> 127.0.0.1:5000
+03/25-06:36:10.051845 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:57768 -> 127.0.0.1:5000
+03/25-06:36:10.358061 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:57778 -> 127.0.0.1:5000
+03/25-06:36:10.358069 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:57778 -> 127.0.0.1:5000
+03/25-06:36:10.659959 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:57792 -> 127.0.0.1:5000
+03/25-06:36:10.659968 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:57792 -> 127.0.0.1:5000
+03/25-06:36:10.962271 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:57804 -> 127.0.0.1:5000
+03/25-06:36:10.962280 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:57804 -> 127.0.0.1:5000
+03/25-06:36:11.264851 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:57808 -> 127.0.0.1:5000
+03/25-06:36:11.320531 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:57812 -> 127.0.0.1:5000
+03/25-06:36:11.372358 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45492 -> 127.0.0.1:5000
+03/25-06:36:11.424328 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45496 -> 127.0.0.1:5000
+03/25-06:36:11.475859 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45510 -> 127.0.0.1:5000
+03/25-06:36:11.527255 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45520 -> 127.0.0.1:5000
+03/25-06:36:11.580575 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45530 -> 127.0.0.1:5000
+03/25-06:36:11.632287 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45538 -> 127.0.0.1:5000
+03/25-06:36:11.684006 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45544 -> 127.0.0.1:5000
+03/25-06:36:11.735543 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45554 -> 127.0.0.1:5000
+03/25-06:36:11.789088 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45570 -> 127.0.0.1:5000
+03/25-06:36:11.841211 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45586 -> 127.0.0.1:5000
+03/25-06:36:11.892637 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45592 -> 127.0.0.1:5000
+03/25-06:36:11.944061 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45602 -> 127.0.0.1:5000
+03/25-06:36:11.995713 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45618 -> 127.0.0.1:5000
+03/25-06:36:12.047268 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45620 -> 127.0.0.1:5000
+03/25-06:36:12.099084 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45622 -> 127.0.0.1:5000
+03/25-06:36:12.150635 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45626 -> 127.0.0.1:5000
+03/25-06:36:12.202640 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45640 -> 127.0.0.1:5000
+03/25-06:36:12.254053 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45664 -> 127.0.0.1:5000
+03/25-06:36:12.307521 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45676 -> 127.0.0.1:5000
+03/25-06:36:12.360027 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45684 -> 127.0.0.1:5000
+03/25-06:36:12.411459 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45686 -> 127.0.0.1:5000
+03/25-06:36:12.463050 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45702 -> 127.0.0.1:5000
+03/25-06:36:12.517511 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45718 -> 127.0.0.1:5000
+03/25-06:36:12.568979 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45726 -> 127.0.0.1:5000
+03/25-06:36:12.622372 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45742 -> 127.0.0.1:5000
+03/25-06:36:12.673967 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45746 -> 127.0.0.1:5000
+03/25-06:36:12.726958 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45752 -> 127.0.0.1:5000
+03/25-06:36:12.778422 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45768 -> 127.0.0.1:5000
+03/25-06:36:12.829867 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45782 -> 127.0.0.1:5000
+03/25-06:36:12.881368 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45786 -> 127.0.0.1:5000
+03/25-06:36:12.934103 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45788 -> 127.0.0.1:5000
+03/25-06:36:12.985564 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45794 -> 127.0.0.1:5000
+03/25-06:36:13.037295 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45810 -> 127.0.0.1:5000
+03/25-06:36:13.089154 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45826 -> 127.0.0.1:5000
+03/25-06:36:13.140728 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45840 -> 127.0.0.1:5000
+03/25-06:36:13.192157 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45854 -> 127.0.0.1:5000
+03/25-06:36:13.243771 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45868 -> 127.0.0.1:5000
+03/25-06:36:13.295301 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45882 -> 127.0.0.1:5000
+03/25-06:36:13.348060 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45890 -> 127.0.0.1:5000
+03/25-06:36:13.399646 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45902 -> 127.0.0.1:5000
+03/25-06:36:13.451342 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45908 -> 127.0.0.1:5000
+03/25-06:36:13.502968 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45922 -> 127.0.0.1:5000
+03/25-06:36:13.554760 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45924 -> 127.0.0.1:5000
+03/25-06:36:13.607855 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45930 -> 127.0.0.1:5000
+03/25-06:36:13.659946 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45944 -> 127.0.0.1:5000
+03/25-06:36:13.712189 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45948 -> 127.0.0.1:5000
+03/25-06:36:13.763946 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45954 -> 127.0.0.1:5000
+03/25-06:36:13.815531 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45960 -> 127.0.0.1:5000
+03/25-06:36:13.867099 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45962 -> 127.0.0.1:5000
+03/25-06:36:13.918605 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45976 -> 127.0.0.1:5000
+03/25-06:36:13.973037 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45988 -> 127.0.0.1:5000
+03/25-06:36:14.024528 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45994 -> 127.0.0.1:5000
+03/25-06:36:14.076026 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46006 -> 127.0.0.1:5000
+03/25-06:36:14.127588 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46012 -> 127.0.0.1:5000
+03/25-06:36:14.179457 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46026 -> 127.0.0.1:5000
+03/25-06:36:14.231482 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46042 -> 127.0.0.1:5000
+03/25-06:36:14.282842 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46048 -> 127.0.0.1:5000
+03/25-06:36:14.334562 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46064 -> 127.0.0.1:5000
+03/25-06:36:14.390859 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46076 -> 127.0.0.1:5000
+03/25-06:36:14.442293 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46078 -> 127.0.0.1:5000
+03/25-06:36:14.494203 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46086 -> 127.0.0.1:5000
+03/25-06:36:14.546188 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46094 -> 127.0.0.1:5000
+03/25-06:36:14.597855 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46100 -> 127.0.0.1:5000
+03/25-06:36:14.649398 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46110 -> 127.0.0.1:5000
+03/25-06:36:14.701425 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46120 -> 127.0.0.1:5000
+03/25-06:36:14.753112 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46130 -> 127.0.0.1:5000
+03/25-06:36:14.804518 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46138 -> 127.0.0.1:5000
+03/25-06:36:14.856733 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46140 -> 127.0.0.1:5000
+03/25-06:36:14.908289 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46148 -> 127.0.0.1:5000
+03/25-06:36:14.959962 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46152 -> 127.0.0.1:5000
+03/25-06:36:15.011609 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46164 -> 127.0.0.1:5000
+03/25-06:36:15.063133 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46176 -> 127.0.0.1:5000
+03/25-06:36:15.114462 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46192 -> 127.0.0.1:5000
+03/25-06:36:15.166341 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46208 -> 127.0.0.1:5000
+03/25-06:36:15.217959 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46210 -> 127.0.0.1:5000
+03/25-06:36:15.270103 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46226 -> 127.0.0.1:5000
+03/25-06:36:15.321608 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46234 -> 127.0.0.1:5000
+03/25-06:36:15.373278 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46236 -> 127.0.0.1:5000
+03/25-06:36:15.424800 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46238 -> 127.0.0.1:5000
+03/25-06:36:15.476559 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46248 -> 127.0.0.1:5000
+03/25-06:36:15.528011 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46250 -> 127.0.0.1:5000
+03/25-06:36:15.579601 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46256 -> 127.0.0.1:5000
+03/25-06:36:15.630991 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46272 -> 127.0.0.1:5000
+03/25-06:36:15.684301 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46288 -> 127.0.0.1:5000
+03/25-06:36:15.736114 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46296 -> 127.0.0.1:5000
+03/25-06:36:15.788134 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46306 -> 127.0.0.1:5000
+03/25-06:36:15.840036 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46318 -> 127.0.0.1:5000
+03/25-06:36:15.891862 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46320 -> 127.0.0.1:5000
+03/25-06:36:15.943826 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46330 -> 127.0.0.1:5000
+03/25-06:36:15.995308 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46354 -> 127.0.0.1:5000
+03/25-06:36:16.046789 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46356 -> 127.0.0.1:5000
+03/25-06:36:16.099063 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46364 -> 127.0.0.1:5000
+03/25-06:36:16.150523 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46372 -> 127.0.0.1:5000
+03/25-06:36:16.202228 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46374 -> 127.0.0.1:5000
+03/25-06:36:16.254108 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46380 -> 127.0.0.1:5000
+03/25-06:36:16.305969 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46388 -> 127.0.0.1:5000
+03/25-06:36:16.357433 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46392 -> 127.0.0.1:5000
+03/25-06:36:16.408980 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46396 -> 127.0.0.1:5000
+03/25-06:36:16.465396 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46410 -> 127.0.0.1:5000
+03/25-06:36:16.516798 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46412 -> 127.0.0.1:5000
+03/25-06:36:16.568338 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46418 -> 127.0.0.1:5000
+03/25-06:36:16.620234 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46422 -> 127.0.0.1:5000
+03/25-06:36:16.671747 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46432 -> 127.0.0.1:5000
+03/25-06:36:16.723150 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46448 -> 127.0.0.1:5000
+03/25-06:36:16.774648 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46462 -> 127.0.0.1:5000
+03/25-06:36:16.826447 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46476 -> 127.0.0.1:5000
+03/25-06:36:16.879748 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46480 -> 127.0.0.1:5000
+03/25-06:36:16.931185 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46496 -> 127.0.0.1:5000
+03/25-06:36:16.995434 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46502 -> 127.0.0.1:5000
+03/25-06:36:17.050124 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46514 -> 127.0.0.1:5000
+03/25-06:36:17.103468 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46532 -> 127.0.0.1:5000
+03/25-06:36:17.154860 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46546 -> 127.0.0.1:5000
+03/25-06:36:17.206271 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46556 -> 127.0.0.1:5000
+03/25-06:36:17.257902 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46568 -> 127.0.0.1:5000
+03/25-06:36:17.309808 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46578 -> 127.0.0.1:5000
+03/25-06:36:17.361662 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46586 -> 127.0.0.1:5000
+03/25-06:36:17.413332 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46588 -> 127.0.0.1:5000
+03/25-06:36:17.464936 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46604 -> 127.0.0.1:5000
+03/25-06:36:17.516794 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46606 -> 127.0.0.1:5000
+03/25-06:36:17.569236 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46612 -> 127.0.0.1:5000
+03/25-06:36:17.621484 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46624 -> 127.0.0.1:5000
+03/25-06:36:17.673574 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46638 -> 127.0.0.1:5000
+03/25-06:36:17.725022 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46650 -> 127.0.0.1:5000
+03/25-06:36:17.780704 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46654 -> 127.0.0.1:5000
+03/25-06:36:17.832212 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46670 -> 127.0.0.1:5000
+03/25-06:36:17.883687 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46684 -> 127.0.0.1:5000
+03/25-06:36:17.935566 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46698 -> 127.0.0.1:5000
+03/25-06:36:17.988988 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46712 -> 127.0.0.1:5000
+03/25-06:36:18.041586 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46724 -> 127.0.0.1:5000
+03/25-06:36:18.094037 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46740 -> 127.0.0.1:5000
+03/25-06:36:18.145990 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46742 -> 127.0.0.1:5000
+03/25-06:36:18.197367 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46754 -> 127.0.0.1:5000
+03/25-06:36:18.249281 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46764 -> 127.0.0.1:5000
+03/25-06:36:18.301689 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46766 -> 127.0.0.1:5000
+03/25-06:36:18.353219 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46770 -> 127.0.0.1:5000
+03/25-06:36:18.407916 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46774 -> 127.0.0.1:5000
+03/25-06:36:18.459348 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46790 -> 127.0.0.1:5000
+03/25-06:36:18.510733 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46792 -> 127.0.0.1:5000
+03/25-06:36:18.562190 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46800 -> 127.0.0.1:5000
+03/25-06:36:18.616977 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46812 -> 127.0.0.1:5000
+03/25-06:36:18.668718 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46820 -> 127.0.0.1:5000
+03/25-06:36:18.720358 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46822 -> 127.0.0.1:5000
+03/25-06:36:18.772532 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46828 -> 127.0.0.1:5000
+03/25-06:36:18.829940 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46842 -> 127.0.0.1:5000
+03/25-06:36:18.881341 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46844 -> 127.0.0.1:5000
+03/25-06:36:18.932712 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46856 -> 127.0.0.1:5000
+03/25-06:36:18.984154 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46858 -> 127.0.0.1:5000
+03/25-06:36:19.035599 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46868 -> 127.0.0.1:5000
+03/25-06:36:19.087354 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46876 -> 127.0.0.1:5000
+03/25-06:36:19.138761 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46906 -> 127.0.0.1:5000
+03/25-06:36:19.191247 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46916 -> 127.0.0.1:5000
+03/25-06:36:19.243226 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46922 -> 127.0.0.1:5000
+03/25-06:36:19.294612 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46934 -> 127.0.0.1:5000
+03/25-06:36:19.346015 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46950 -> 127.0.0.1:5000
+03/25-06:36:19.397414 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46958 -> 127.0.0.1:5000
+03/25-06:36:19.448934 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46964 -> 127.0.0.1:5000
+03/25-06:36:19.502256 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46978 -> 127.0.0.1:5000
+03/25-06:36:19.553673 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46982 -> 127.0.0.1:5000
+03/25-06:36:19.605228 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46984 -> 127.0.0.1:5000
+03/25-06:36:19.656959 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46994 -> 127.0.0.1:5000
+03/25-06:36:19.708446 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46996 -> 127.0.0.1:5000
+03/25-06:36:19.759882 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46998 -> 127.0.0.1:5000
+03/25-06:36:19.811305 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:47006 -> 127.0.0.1:5000
+03/25-06:36:19.863124 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:47012 -> 127.0.0.1:5000
+03/25-06:36:19.914897 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:47014 -> 127.0.0.1:5000
+03/25-06:36:19.966767 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:47024 -> 127.0.0.1:5000
+03/25-06:36:20.021068 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:47028 -> 127.0.0.1:5000
+03/25-06:36:20.072521 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:47030 -> 127.0.0.1:5000
+03/25-06:36:20.124051 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:47034 -> 127.0.0.1:5000
+03/25-06:36:20.175580 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:47050 -> 127.0.0.1:5000
+03/25-06:36:20.227062 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:47056 -> 127.0.0.1:5000
+03/25-06:36:20.278809 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:47058 -> 127.0.0.1:5000
+03/25-06:36:20.332188 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:47074 -> 127.0.0.1:5000
+03/25-06:36:20.384783 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:47088 -> 127.0.0.1:5000
+03/25-06:36:20.441475 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:47100 -> 127.0.0.1:5000
+03/25-06:36:20.501625 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:47110 -> 127.0.0.1:5000
+03/25-06:36:20.553098 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:47122 -> 127.0.0.1:5000
+03/25-06:36:20.604966 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:47124 -> 127.0.0.1:5000
+03/25-06:36:20.658669 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:47138 -> 127.0.0.1:5000
+03/25-06:36:20.710076 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:47168 -> 127.0.0.1:5000
+03/25-06:36:20.762807 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:47182 -> 127.0.0.1:5000
+03/25-06:36:20.814735 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:47194 -> 127.0.0.1:5000
+03/25-06:36:20.866158 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:47200 -> 127.0.0.1:5000
+03/25-06:36:20.918967 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:47206 -> 127.0.0.1:5000
+03/25-06:36:20.970518 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:47216 -> 127.0.0.1:5000
+03/25-06:36:21.024577 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:47226 -> 127.0.0.1:5000
+03/25-06:36:21.076188 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:47230 -> 127.0.0.1:5000
+03/25-06:36:21.129870 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:47232 -> 127.0.0.1:5000
+03/25-06:36:21.181389 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:47234 -> 127.0.0.1:5000
+03/25-06:36:21.232780 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:47244 -> 127.0.0.1:5000
+03/25-06:36:21.284250 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:47248 -> 127.0.0.1:5000
+03/25-06:36:21.335787 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:47258 -> 127.0.0.1:5000
+03/25-06:36:21.388225 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46680 -> 127.0.0.1:5000
+03/25-06:36:21.439600 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46682 -> 127.0.0.1:5000
+03/25-06:36:21.491188 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46694 -> 127.0.0.1:5000
+03/25-06:36:21.547166 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46710 -> 127.0.0.1:5000
+03/25-06:36:21.603607 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46722 -> 127.0.0.1:5000
+03/25-06:36:21.655193 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46734 -> 127.0.0.1:5000
+03/25-06:36:21.706866 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46740 -> 127.0.0.1:5000
+03/25-06:36:22.008521 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46746 -> 127.0.0.1:5000
+03/25-06:36:22.068781 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46756 -> 127.0.0.1:5000
+03/25-06:36:22.310168 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46758 -> 127.0.0.1:5000
+03/25-06:36:22.611793 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46770 -> 127.0.0.1:5000
+03/25-06:36:22.913326 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46778 -> 127.0.0.1:5000
+03/25-06:36:23.215001 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46806 -> 127.0.0.1:5000
+03/25-06:36:23.517349 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46816 -> 127.0.0.1:5000
+03/25-06:36:23.820533 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46822 -> 127.0.0.1:5000
+03/25-06:36:23.905356 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46836 -> 127.0.0.1:5000
+03/25-06:36:24.122077 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46850 -> 127.0.0.1:5000
+03/25-06:36:24.425698 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46860 -> 127.0.0.1:5000
+03/25-06:36:24.727380 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46876 -> 127.0.0.1:5000
+03/25-06:36:24.753369 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46890 -> 127.0.0.1:5000
+03/25-06:36:25.033482 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46902 -> 127.0.0.1:5000
+03/25-06:36:25.339288 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46914 -> 127.0.0.1:5000
+03/25-06:36:25.641908 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46920 -> 127.0.0.1:5000
+03/25-06:36:25.946495 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46936 -> 127.0.0.1:5000
+03/25-06:36:26.248640 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46954 -> 127.0.0.1:5000
+03/25-06:36:26.553796 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46966 -> 127.0.0.1:5000
+03/25-06:36:26.858203 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46974 -> 127.0.0.1:5000
+03/25-06:36:27.161117 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46978 -> 127.0.0.1:5000
+03/25-06:36:27.467271 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46992 -> 127.0.0.1:5000
+03/25-06:36:27.772342 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:46998 -> 127.0.0.1:5000
+03/25-06:36:28.074876 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:47008 -> 127.0.0.1:5000
+03/25-06:36:28.376643 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:47034 -> 127.0.0.1:5000
+03/25-06:36:28.678403 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:47044 -> 127.0.0.1:5000
+03/25-06:36:28.980290 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:47046 -> 127.0.0.1:5000
+03/25-06:36:29.282150 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:47062 -> 127.0.0.1:5000
+03/25-06:36:29.583875 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:47070 -> 127.0.0.1:5000
+03/25-06:36:29.887315 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:47086 -> 127.0.0.1:5000
+03/25-06:36:30.189908 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:47096 -> 127.0.0.1:5000
+03/25-06:36:30.491588 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:47102 -> 127.0.0.1:5000
+03/25-06:36:30.796683 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:47126 -> 127.0.0.1:5000
+03/25-06:36:31.103037 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:47138 -> 127.0.0.1:5000
+03/25-06:36:31.406513 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45132 -> 127.0.0.1:5000
+03/25-06:36:31.708215 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45138 -> 127.0.0.1:5000
+03/25-06:36:32.011804 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45154 -> 127.0.0.1:5000
+03/25-06:36:32.313828 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45162 -> 127.0.0.1:5000
+03/25-06:36:32.617160 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45166 -> 127.0.0.1:5000
+03/25-06:36:32.919192 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45172 -> 127.0.0.1:5000
+03/25-06:36:32.937475 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45182 -> 127.0.0.1:5000
+03/25-06:36:33.222341 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45192 -> 127.0.0.1:5000
+03/25-06:36:33.526325 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45194 -> 127.0.0.1:5000
+03/25-06:36:33.828343 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45210 -> 127.0.0.1:5000
+03/25-06:36:34.134379 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45212 -> 127.0.0.1:5000
+03/25-06:36:34.438132 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45224 -> 127.0.0.1:5000
+03/25-06:36:34.657560 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45228 -> 127.0.0.1:5000
+03/25-06:36:34.739922 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45232 -> 127.0.0.1:5000
+03/25-06:36:35.041896 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45242 -> 127.0.0.1:5000
+03/25-06:36:35.344424 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45244 -> 127.0.0.1:5000
+03/25-06:36:35.646682 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45258 -> 127.0.0.1:5000
+03/25-06:36:35.952997 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45270 -> 127.0.0.1:5000
+03/25-06:36:36.254748 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45282 -> 127.0.0.1:5000
+03/25-06:36:36.556666 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45290 -> 127.0.0.1:5000
+03/25-06:36:36.645617 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45296 -> 127.0.0.1:5000
+03/25-06:36:36.861432 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45300 -> 127.0.0.1:5000
+03/25-06:36:37.163079 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45312 -> 127.0.0.1:5000
+03/25-06:36:37.469415 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45322 -> 127.0.0.1:5000
+03/25-06:36:37.771038 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45332 -> 127.0.0.1:5000
+03/25-06:36:38.076992 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45340 -> 127.0.0.1:5000
+03/25-06:36:38.378796 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45356 -> 127.0.0.1:5000
+03/25-06:36:38.680754 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45372 -> 127.0.0.1:5000
+03/25-06:36:38.983020 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45388 -> 127.0.0.1:5000
+03/25-06:36:39.084500 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45396 -> 127.0.0.1:5000
+03/25-06:36:39.284803 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45398 -> 127.0.0.1:5000
+03/25-06:36:39.586523 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45404 -> 127.0.0.1:5000
+03/25-06:36:39.892345 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45406 -> 127.0.0.1:5000
+03/25-06:36:40.194052 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45408 -> 127.0.0.1:5000
+03/25-06:36:40.496151 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45420 -> 127.0.0.1:5000
+03/25-06:36:40.797992 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45422 -> 127.0.0.1:5000
+03/25-06:36:41.099751 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:45438 -> 127.0.0.1:5000
+03/25-06:36:41.401509 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:41990 -> 127.0.0.1:5000
+03/25-06:36:41.703102 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42000 -> 127.0.0.1:5000
+03/25-06:36:42.004592 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42010 -> 127.0.0.1:5000
+03/25-06:36:42.306970 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42038 -> 127.0.0.1:5000
+03/25-06:36:42.609039 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42052 -> 127.0.0.1:5000
+03/25-06:36:42.911358 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42058 -> 127.0.0.1:5000
+03/25-06:36:43.214351 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42062 -> 127.0.0.1:5000
+03/25-06:36:43.517242 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42068 -> 127.0.0.1:5000
+03/25-06:36:43.818985 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42070 -> 127.0.0.1:5000
+03/25-06:36:44.124514 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42086 -> 127.0.0.1:5000
+03/25-06:36:44.426086 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42094 -> 127.0.0.1:5000
+03/25-06:36:44.728280 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42102 -> 127.0.0.1:5000
+03/25-06:36:45.030178 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42114 -> 127.0.0.1:5000
+03/25-06:36:45.338292 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42132 -> 127.0.0.1:5000
+03/25-06:36:45.639998 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42142 -> 127.0.0.1:5000
+03/25-06:36:45.942958 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42164 -> 127.0.0.1:5000
+03/25-06:36:46.244502 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42166 -> 127.0.0.1:5000
+03/25-06:36:46.550203 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42172 -> 127.0.0.1:5000
+03/25-06:36:46.852699 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42188 -> 127.0.0.1:5000
+03/25-06:36:47.154716 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42202 -> 127.0.0.1:5000
+03/25-06:36:47.456393 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42214 -> 127.0.0.1:5000
+03/25-06:36:47.758116 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42222 -> 127.0.0.1:5000
+03/25-06:36:48.060384 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42234 -> 127.0.0.1:5000
+03/25-06:36:48.362324 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42244 -> 127.0.0.1:5000
+03/25-06:36:48.664108 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42248 -> 127.0.0.1:5000
+03/25-06:36:48.966579 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42262 -> 127.0.0.1:5000
+03/25-06:36:49.272755 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42282 -> 127.0.0.1:5000
+03/25-06:36:49.574629 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42298 -> 127.0.0.1:5000
+03/25-06:36:49.880935 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42304 -> 127.0.0.1:5000
+03/25-06:36:50.187334 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42316 -> 127.0.0.1:5000
+03/25-06:36:50.489360 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42320 -> 127.0.0.1:5000
+03/25-06:36:50.795521 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42332 -> 127.0.0.1:5000
+03/25-06:36:51.100994 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:42344 -> 127.0.0.1:5000
+03/25-06:36:51.403373 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:54312 -> 127.0.0.1:5000
+03/25-06:36:51.705017 [**] [1:1000004:7] "[INFO] Security Scanner Activity Detected" [**] [Priority: 0] {TCP} 127.0.0.1:54324 -> 127.0.0.1:5000
