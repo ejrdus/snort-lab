@@ -1,0 +1,116 @@
+=======================================================
+  공격 트래픽 생성기 시작 (연구용)
+  대상 서버  : http://127.0.0.1:5000
+  공격 유형  : scan
+  경고: 허가된 실험 환경에서만 사용하세요.
+=======================================================
+  서버 연결 확인: http://127.0.0.1:5000
+
+───────────────────────────────────────────────────────
+  공격 유형 4: 의심 User-Agent / 스캐너 모방 × 100건
+───────────────────────────────────────────────────────
+[11:12:57] [ATK] GET /api/account [sqlmap]           status=200  ua=sqlmap/1.7.8#stable (https://sqlmap.org)
+[11:12:57] [ATK] GET /api/account [nikto]            status=200  ua=Nikto/2.1.6
+[11:12:58] [ATK] GET /api/account [nmap]             status=200  ua=Nmap Scripting Engine
+[11:12:58] [ATK] GET /api/account [dirbuster]        status=200  ua=DirBuster-1.0-RC1
+[11:12:58] [ATK] GET /api/account [zgrab]            status=200  ua=zgrab/0.x
+[11:12:59] [ATK] GET /api/account [masscan]          status=200  ua=masscan/1.3
+[11:12:59] [ATK] GET /api/account [burp]             status=200  ua=python-httpx/0.24.0
+[11:12:59] [ATK] GET /api/account [sqlmap2]          status=200  ua=sqlmap/1.8.1#stable (https://sqlmap.org)
+[11:12:59] [ATK] GET /api/account [nikto2]           status=200  ua=Nikto/2.5.0
+[11:13:00] [ATK] GET /api/account [nmap2]            status=200  ua=Mozilla/5.0 (compatible; Nmap Scripting 
+[11:13:00] [ATK] GET /api/account [gobuster]         status=200  ua=gobuster/3.6
+[11:13:00] [ATK] GET /api/account [wfuzz]            status=200  ua=Wfuzz/3.1.0
+[11:13:01] [ATK] GET /api/account [nuclei]           status=200  ua=Nuclei/3.1.0
+[11:13:01] [ATK] GET /api/account [ffuf]             status=200  ua=Fuzz Faster U Fool v2.1.0
+[11:13:01] [ATK] GET /api/account [hydra]            status=200  ua=Mozilla/4.0 (Hydra)
+[11:13:02] [ATK] GET /api/account [arachni]          status=200  ua=Arachni/v1.6.1
+[11:13:02] [ATK] GET /api/account [openvas]          status=200  ua=OpenVAS/22.4
+[11:13:02] [ATK] GET /api/account [w3af]             status=200  ua=w3af.org
+[11:13:02] [ATK] GET /api/account [skipfish]         status=200  ua=skipfish/2.10b
+[11:13:03] [ATK] GET /api/account [whatweb]          status=200  ua=WhatWeb/0.5.5
+[11:13:03] [ATK] GET /api/account [wpscan]           status=200  ua=WPScan v3.8.25
+[11:13:03] [ATK] GET /api/account [sqlmap]           status=200  ua=sqlmap/1.7.8#stable (https://sqlmap.org)
+[11:13:04] [ATK] GET /api/account [nikto]            status=200  ua=Nikto/2.1.6
+[11:13:04] [ATK] GET /api/account [nmap]             status=200  ua=Nmap Scripting Engine
+[11:13:04] [ATK] GET /api/account [dirbuster]        status=200  ua=DirBuster-1.0-RC1
+[11:13:05] [ATK] GET /api/account [zgrab]            status=200  ua=zgrab/0.x
+[11:13:05] [ATK] GET /api/account [masscan]          status=200  ua=masscan/1.3
+[11:13:05] [ATK] GET /api/account [burp]             status=200  ua=python-httpx/0.24.0
+[11:13:05] [ATK] GET /api/account [sqlmap2]          status=200  ua=sqlmap/1.8.1#stable (https://sqlmap.org)
+[11:13:06] [ATK] GET /api/account [nikto2]           status=200  ua=Nikto/2.5.0
+[11:13:06] [ATK] GET /api/account [nmap2]            status=200  ua=Mozilla/5.0 (compatible; Nmap Scripting 
+[11:13:06] [ATK] GET /api/account [gobuster]         status=200  ua=gobuster/3.6
+[11:13:07] [ATK] GET /api/account [wfuzz]            status=200  ua=Wfuzz/3.1.0
+[11:13:07] [ATK] GET /api/account [nuclei]           status=200  ua=Nuclei/3.1.0
+[11:13:07] [ATK] GET /api/account [ffuf]             status=200  ua=Fuzz Faster U Fool v2.1.0
+[11:13:08] [ATK] GET /api/account [hydra]            status=200  ua=Mozilla/4.0 (Hydra)
+[11:13:08] [ATK] GET /api/account [arachni]          status=200  ua=Arachni/v1.6.1
+[11:13:08] [ATK] GET /api/account [openvas]          status=200  ua=OpenVAS/22.4
+[11:13:08] [ATK] GET /api/account [w3af]             status=200  ua=w3af.org
+[11:13:09] [ATK] GET /api/account [skipfish]         status=200  ua=skipfish/2.10b
+[11:13:09] [ATK] GET /api/account [whatweb]          status=200  ua=WhatWeb/0.5.5
+[11:13:09] [ATK] GET /api/account [wpscan]           status=200  ua=WPScan v3.8.25
+[11:13:10] [ATK] GET /api/account [sqlmap]           status=200  ua=sqlmap/1.7.8#stable (https://sqlmap.org)
+[11:13:10] [ATK] GET /api/account [nikto]            status=200  ua=Nikto/2.1.6
+[11:13:10] [ATK] GET /api/account [nmap]             status=200  ua=Nmap Scripting Engine
+[11:13:11] [ATK] GET /api/account [dirbuster]        status=200  ua=DirBuster-1.0-RC1
+[11:13:11] [ATK] GET /api/account [zgrab]            status=200  ua=zgrab/0.x
+[11:13:11] [ATK] GET /api/account [masscan]          status=200  ua=masscan/1.3
+[11:13:12] [ATK] GET /api/account [burp]             status=200  ua=python-httpx/0.24.0
+[11:13:12] [ATK] GET /api/account [sqlmap2]          status=200  ua=sqlmap/1.8.1#stable (https://sqlmap.org)
+[11:13:12] [ATK] GET /api/account [nikto2]           status=200  ua=Nikto/2.5.0
+[11:13:12] [ATK] GET /api/account [nmap2]            status=200  ua=Mozilla/5.0 (compatible; Nmap Scripting 
+[11:13:13] [ATK] GET /api/account [gobuster]         status=200  ua=gobuster/3.6
+[11:13:13] [ATK] GET /api/account [wfuzz]            status=200  ua=Wfuzz/3.1.0
+[11:13:13] [ATK] GET /api/account [nuclei]           status=200  ua=Nuclei/3.1.0
+[11:13:14] [ATK] GET /api/account [ffuf]             status=200  ua=Fuzz Faster U Fool v2.1.0
+[11:13:14] [ATK] GET /api/account [hydra]            status=200  ua=Mozilla/4.0 (Hydra)
+[11:13:14] [ATK] GET /api/account [arachni]          status=200  ua=Arachni/v1.6.1
+[11:13:15] [ATK] GET /api/account [openvas]          status=200  ua=OpenVAS/22.4
+[11:13:15] [ATK] GET /api/account [w3af]             status=200  ua=w3af.org
+[11:13:15] [ATK] GET /api/account [skipfish]         status=200  ua=skipfish/2.10b
+[11:13:15] [ATK] GET /api/account [whatweb]          status=200  ua=WhatWeb/0.5.5
+[11:13:16] [ATK] GET /api/account [wpscan]           status=200  ua=WPScan v3.8.25
+[11:13:16] [ATK] GET /api/account [sqlmap]           status=200  ua=sqlmap/1.7.8#stable (https://sqlmap.org)
+[11:13:16] [ATK] GET /api/account [nikto]            status=200  ua=Nikto/2.1.6
+[11:13:17] [ATK] GET /api/account [nmap]             status=200  ua=Nmap Scripting Engine
+[11:13:17] [ATK] GET /api/account [dirbuster]        status=200  ua=DirBuster-1.0-RC1
+[11:13:17] [ATK] GET /api/account [zgrab]            status=200  ua=zgrab/0.x
+[11:13:18] [ATK] GET /api/account [masscan]          status=200  ua=masscan/1.3
+[11:13:18] [ATK] GET /api/account [burp]             status=200  ua=python-httpx/0.24.0
+[11:13:18] [ATK] GET /api/account [sqlmap2]          status=200  ua=sqlmap/1.8.1#stable (https://sqlmap.org)
+[11:13:18] [ATK] GET /api/account [nikto2]           status=200  ua=Nikto/2.5.0
+[11:13:19] [ATK] GET /api/account [nmap2]            status=200  ua=Mozilla/5.0 (compatible; Nmap Scripting 
+[11:13:19] [ATK] GET /api/account [gobuster]         status=200  ua=gobuster/3.6
+[11:13:19] [ATK] GET /api/account [wfuzz]            status=200  ua=Wfuzz/3.1.0
+[11:13:20] [ATK] GET /api/account [nuclei]           status=200  ua=Nuclei/3.1.0
+[11:13:20] [ATK] GET /api/account [ffuf]             status=200  ua=Fuzz Faster U Fool v2.1.0
+[11:13:20] [ATK] GET /api/account [hydra]            status=200  ua=Mozilla/4.0 (Hydra)
+[11:13:21] [ATK] GET /api/account [arachni]          status=200  ua=Arachni/v1.6.1
+[11:13:21] [ATK] GET /api/account [openvas]          status=200  ua=OpenVAS/22.4
+[11:13:21] [ATK] GET /api/account [w3af]             status=200  ua=w3af.org
+[11:13:21] [ATK] GET /api/account [skipfish]         status=200  ua=skipfish/2.10b
+[11:13:22] [ATK] GET /api/account [whatweb]          status=200  ua=WhatWeb/0.5.5
+[11:13:22] [ATK] GET /api/account [wpscan]           status=200  ua=WPScan v3.8.25
+[11:13:22] [ATK] GET /api/account [sqlmap]           status=200  ua=sqlmap/1.7.8#stable (https://sqlmap.org)
+[11:13:23] [ATK] GET /api/account [nikto]            status=200  ua=Nikto/2.1.6
+[11:13:23] [ATK] GET /api/account [nmap]             status=200  ua=Nmap Scripting Engine
+[11:13:23] [ATK] GET /api/account [dirbuster]        status=200  ua=DirBuster-1.0-RC1
+[11:13:24] [ATK] GET /api/account [zgrab]            status=200  ua=zgrab/0.x
+[11:13:24] [ATK] GET /api/account [masscan]          status=200  ua=masscan/1.3
+[11:13:24] [ATK] GET /api/account [burp]             status=200  ua=python-httpx/0.24.0
+[11:13:24] [ATK] GET /api/account [sqlmap2]          status=200  ua=sqlmap/1.8.1#stable (https://sqlmap.org)
+[11:13:25] [ATK] GET /api/account [nikto2]           status=200  ua=Nikto/2.5.0
+[11:13:25] [ATK] GET /api/account [nmap2]            status=200  ua=Mozilla/5.0 (compatible; Nmap Scripting 
+[11:13:25] [ATK] GET /api/account [gobuster]         status=200  ua=gobuster/3.6
+[11:13:26] [ATK] GET /api/account [wfuzz]            status=200  ua=Wfuzz/3.1.0
+[11:13:26] [ATK] GET /api/account [nuclei]           status=200  ua=Nuclei/3.1.0
+[11:13:26] [ATK] GET /api/account [ffuf]             status=200  ua=Fuzz Faster U Fool v2.1.0
+[11:13:27] [ATK] GET /api/account [hydra]            status=200  ua=Mozilla/4.0 (Hydra)
+[11:13:27] [ATK] GET /api/account [arachni]          status=200  ua=Arachni/v1.6.1
+  완료: 스캐너 UA 100건 전송
+
+=======================================================
+  공격 트래픽 생성 완료 | 경과 30.2초
+=======================================================

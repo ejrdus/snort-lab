@@ -1,0 +1,5 @@
+# Scanner UA 전용 재실험 룰 (SID 1000004)
+alert tcp any any -> any 5000 (msg:"[INFO] Security Scanner Activity Detected"; \
+    http_uri; content:"/api/account", nocase; \
+    http_header; pcre:"/User-Agent:.*(sqlmap|Nikto|Nmap|DirBuster|zgrab|masscan|gobuster|wfuzz|nuclei|ffuf|Fuzz Faster U Fool|Hydra|Arachni|OpenVAS|w3af|skipfish|WhatWeb|WPScan|python-httpx|python-requests|curl\/|libwww-perl)/i"; \
+    sid:1000004; rev:7;)

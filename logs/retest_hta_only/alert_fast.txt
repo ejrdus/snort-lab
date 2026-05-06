@@ -1,0 +1,170 @@
+11/14-22:13:21.002999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20000 -> 127.0.0.1:5000
+11/14-22:13:21.012999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20001 -> 127.0.0.1:5000
+11/14-22:13:21.022999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20002 -> 127.0.0.1:5000
+11/14-22:13:21.032999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20003 -> 127.0.0.1:5000
+11/14-22:13:21.042999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20004 -> 127.0.0.1:5000
+11/14-22:13:21.052999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20005 -> 127.0.0.1:5000
+11/14-22:13:21.062999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20006 -> 127.0.0.1:5000
+11/14-22:13:21.072999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20007 -> 127.0.0.1:5000
+11/14-22:13:21.082999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20008 -> 127.0.0.1:5000
+11/14-22:13:21.092999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20009 -> 127.0.0.1:5000
+11/14-22:13:21.102999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20010 -> 127.0.0.1:5000
+11/14-22:13:21.112999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20011 -> 127.0.0.1:5000
+11/14-22:13:21.122999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20012 -> 127.0.0.1:5000
+11/14-22:13:21.132999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20013 -> 127.0.0.1:5000
+11/14-22:13:21.142999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20014 -> 127.0.0.1:5000
+11/14-22:13:21.152999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20015 -> 127.0.0.1:5000
+11/14-22:13:21.162999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20016 -> 127.0.0.1:5000
+11/14-22:13:21.172999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20017 -> 127.0.0.1:5000
+11/14-22:13:21.182999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20018 -> 127.0.0.1:5000
+11/14-22:13:21.192999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20019 -> 127.0.0.1:5000
+11/14-22:13:21.202999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20020 -> 127.0.0.1:5000
+11/14-22:13:21.212999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20021 -> 127.0.0.1:5000
+11/14-22:13:21.222999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20022 -> 127.0.0.1:5000
+11/14-22:13:21.232999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20023 -> 127.0.0.1:5000
+11/14-22:13:21.242999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20024 -> 127.0.0.1:5000
+11/14-22:13:21.252999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20025 -> 127.0.0.1:5000
+11/14-22:13:21.262999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20026 -> 127.0.0.1:5000
+11/14-22:13:21.272999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20027 -> 127.0.0.1:5000
+11/14-22:13:21.282999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20028 -> 127.0.0.1:5000
+11/14-22:13:21.292999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20029 -> 127.0.0.1:5000
+11/14-22:13:21.302999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20030 -> 127.0.0.1:5000
+11/14-22:13:21.302999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20030 -> 127.0.0.1:5000
+11/14-22:13:21.312999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20031 -> 127.0.0.1:5000
+11/14-22:13:21.312999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20031 -> 127.0.0.1:5000
+11/14-22:13:21.322999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20032 -> 127.0.0.1:5000
+11/14-22:13:21.322999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20032 -> 127.0.0.1:5000
+11/14-22:13:21.332999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20033 -> 127.0.0.1:5000
+11/14-22:13:21.332999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20033 -> 127.0.0.1:5000
+11/14-22:13:21.342999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20034 -> 127.0.0.1:5000
+11/14-22:13:21.342999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20034 -> 127.0.0.1:5000
+11/14-22:13:21.352999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20035 -> 127.0.0.1:5000
+11/14-22:13:21.352999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20035 -> 127.0.0.1:5000
+11/14-22:13:21.362999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20036 -> 127.0.0.1:5000
+11/14-22:13:21.362999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20036 -> 127.0.0.1:5000
+11/14-22:13:21.372999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20037 -> 127.0.0.1:5000
+11/14-22:13:21.372999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20037 -> 127.0.0.1:5000
+11/14-22:13:21.382999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20038 -> 127.0.0.1:5000
+11/14-22:13:21.382999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20038 -> 127.0.0.1:5000
+11/14-22:13:21.392999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20039 -> 127.0.0.1:5000
+11/14-22:13:21.392999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20039 -> 127.0.0.1:5000
+11/14-22:13:21.402999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20040 -> 127.0.0.1:5000
+11/14-22:13:21.402999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20040 -> 127.0.0.1:5000
+11/14-22:13:21.412999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20041 -> 127.0.0.1:5000
+11/14-22:13:21.412999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20041 -> 127.0.0.1:5000
+11/14-22:13:21.422999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20042 -> 127.0.0.1:5000
+11/14-22:13:21.422999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20042 -> 127.0.0.1:5000
+11/14-22:13:21.432999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20043 -> 127.0.0.1:5000
+11/14-22:13:21.432999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20043 -> 127.0.0.1:5000
+11/14-22:13:21.442999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20044 -> 127.0.0.1:5000
+11/14-22:13:21.442999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20044 -> 127.0.0.1:5000
+11/14-22:13:21.452999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20045 -> 127.0.0.1:5000
+11/14-22:13:21.452999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20045 -> 127.0.0.1:5000
+11/14-22:13:21.462999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20046 -> 127.0.0.1:5000
+11/14-22:13:21.462999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20046 -> 127.0.0.1:5000
+11/14-22:13:21.472999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20047 -> 127.0.0.1:5000
+11/14-22:13:21.472999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20047 -> 127.0.0.1:5000
+11/14-22:13:21.482999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20048 -> 127.0.0.1:5000
+11/14-22:13:21.482999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20048 -> 127.0.0.1:5000
+11/14-22:13:21.492999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20049 -> 127.0.0.1:5000
+11/14-22:13:21.492999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20049 -> 127.0.0.1:5000
+11/14-22:13:21.502999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20050 -> 127.0.0.1:5000
+11/14-22:13:21.502999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20050 -> 127.0.0.1:5000
+11/14-22:13:21.512999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20051 -> 127.0.0.1:5000
+11/14-22:13:21.512999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20051 -> 127.0.0.1:5000
+11/14-22:13:21.522999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20052 -> 127.0.0.1:5000
+11/14-22:13:21.522999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20052 -> 127.0.0.1:5000
+11/14-22:13:21.532999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20053 -> 127.0.0.1:5000
+11/14-22:13:21.532999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20053 -> 127.0.0.1:5000
+11/14-22:13:21.542999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20054 -> 127.0.0.1:5000
+11/14-22:13:21.542999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20054 -> 127.0.0.1:5000
+11/14-22:13:21.552999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20055 -> 127.0.0.1:5000
+11/14-22:13:21.552999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20055 -> 127.0.0.1:5000
+11/14-22:13:21.562999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20056 -> 127.0.0.1:5000
+11/14-22:13:21.562999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20056 -> 127.0.0.1:5000
+11/14-22:13:21.572999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20057 -> 127.0.0.1:5000
+11/14-22:13:21.572999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20057 -> 127.0.0.1:5000
+11/14-22:13:21.582999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20058 -> 127.0.0.1:5000
+11/14-22:13:21.582999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20058 -> 127.0.0.1:5000
+11/14-22:13:21.592999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20059 -> 127.0.0.1:5000
+11/14-22:13:21.592999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20059 -> 127.0.0.1:5000
+11/14-22:13:21.602999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20060 -> 127.0.0.1:5000
+11/14-22:13:21.602999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20060 -> 127.0.0.1:5000
+11/14-22:13:21.612999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20061 -> 127.0.0.1:5000
+11/14-22:13:21.612999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20061 -> 127.0.0.1:5000
+11/14-22:13:21.622999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20062 -> 127.0.0.1:5000
+11/14-22:13:21.622999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20062 -> 127.0.0.1:5000
+11/14-22:13:21.632999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20063 -> 127.0.0.1:5000
+11/14-22:13:21.632999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20063 -> 127.0.0.1:5000
+11/14-22:13:21.642999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20064 -> 127.0.0.1:5000
+11/14-22:13:21.642999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20064 -> 127.0.0.1:5000
+11/14-22:13:21.652999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20065 -> 127.0.0.1:5000
+11/14-22:13:21.652999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20065 -> 127.0.0.1:5000
+11/14-22:13:21.662999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20066 -> 127.0.0.1:5000
+11/14-22:13:21.662999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20066 -> 127.0.0.1:5000
+11/14-22:13:21.672999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20067 -> 127.0.0.1:5000
+11/14-22:13:21.672999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20067 -> 127.0.0.1:5000
+11/14-22:13:21.682999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20068 -> 127.0.0.1:5000
+11/14-22:13:21.682999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20068 -> 127.0.0.1:5000
+11/14-22:13:21.692999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20069 -> 127.0.0.1:5000
+11/14-22:13:21.692999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20069 -> 127.0.0.1:5000
+11/14-22:13:21.702999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20070 -> 127.0.0.1:5000
+11/14-22:13:21.702999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20070 -> 127.0.0.1:5000
+11/14-22:13:21.712999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20071 -> 127.0.0.1:5000
+11/14-22:13:21.712999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20071 -> 127.0.0.1:5000
+11/14-22:13:21.722999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20072 -> 127.0.0.1:5000
+11/14-22:13:21.722999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20072 -> 127.0.0.1:5000
+11/14-22:13:21.732999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20073 -> 127.0.0.1:5000
+11/14-22:13:21.732999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20073 -> 127.0.0.1:5000
+11/14-22:13:21.742999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20074 -> 127.0.0.1:5000
+11/14-22:13:21.742999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20074 -> 127.0.0.1:5000
+11/14-22:13:21.752999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20075 -> 127.0.0.1:5000
+11/14-22:13:21.752999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20075 -> 127.0.0.1:5000
+11/14-22:13:21.762999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20076 -> 127.0.0.1:5000
+11/14-22:13:21.762999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20076 -> 127.0.0.1:5000
+11/14-22:13:21.772999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20077 -> 127.0.0.1:5000
+11/14-22:13:21.772999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20077 -> 127.0.0.1:5000
+11/14-22:13:21.782999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20078 -> 127.0.0.1:5000
+11/14-22:13:21.782999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20078 -> 127.0.0.1:5000
+11/14-22:13:21.792999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20079 -> 127.0.0.1:5000
+11/14-22:13:21.792999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20079 -> 127.0.0.1:5000
+11/14-22:13:21.802999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20080 -> 127.0.0.1:5000
+11/14-22:13:21.802999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20080 -> 127.0.0.1:5000
+11/14-22:13:21.812999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20081 -> 127.0.0.1:5000
+11/14-22:13:21.812999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20081 -> 127.0.0.1:5000
+11/14-22:13:21.822999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20082 -> 127.0.0.1:5000
+11/14-22:13:21.822999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20082 -> 127.0.0.1:5000
+11/14-22:13:21.832999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20083 -> 127.0.0.1:5000
+11/14-22:13:21.832999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20083 -> 127.0.0.1:5000
+11/14-22:13:21.842999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20084 -> 127.0.0.1:5000
+11/14-22:13:21.842999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20084 -> 127.0.0.1:5000
+11/14-22:13:21.852999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20085 -> 127.0.0.1:5000
+11/14-22:13:21.852999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20085 -> 127.0.0.1:5000
+11/14-22:13:21.862999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20086 -> 127.0.0.1:5000
+11/14-22:13:21.862999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20086 -> 127.0.0.1:5000
+11/14-22:13:21.872999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20087 -> 127.0.0.1:5000
+11/14-22:13:21.872999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20087 -> 127.0.0.1:5000
+11/14-22:13:21.882999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20088 -> 127.0.0.1:5000
+11/14-22:13:21.882999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20088 -> 127.0.0.1:5000
+11/14-22:13:21.892999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20089 -> 127.0.0.1:5000
+11/14-22:13:21.892999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20089 -> 127.0.0.1:5000
+11/14-22:13:21.902999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20090 -> 127.0.0.1:5000
+11/14-22:13:21.902999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20090 -> 127.0.0.1:5000
+11/14-22:13:21.912999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20091 -> 127.0.0.1:5000
+11/14-22:13:21.912999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20091 -> 127.0.0.1:5000
+11/14-22:13:21.922999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20092 -> 127.0.0.1:5000
+11/14-22:13:21.922999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20092 -> 127.0.0.1:5000
+11/14-22:13:21.932999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20093 -> 127.0.0.1:5000
+11/14-22:13:21.932999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20093 -> 127.0.0.1:5000
+11/14-22:13:21.942999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20094 -> 127.0.0.1:5000
+11/14-22:13:21.942999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20094 -> 127.0.0.1:5000
+11/14-22:13:21.952999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20095 -> 127.0.0.1:5000
+11/14-22:13:21.952999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20095 -> 127.0.0.1:5000
+11/14-22:13:21.962999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20096 -> 127.0.0.1:5000
+11/14-22:13:21.962999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20096 -> 127.0.0.1:5000
+11/14-22:13:21.972999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20097 -> 127.0.0.1:5000
+11/14-22:13:21.972999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20097 -> 127.0.0.1:5000
+11/14-22:13:21.982999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20098 -> 127.0.0.1:5000
+11/14-22:13:21.982999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20098 -> 127.0.0.1:5000
+11/14-22:13:21.992999 [**] [1:1000003:7] "[ATTACK] API Request Brute Force Detected" [**] [Priority: 0] {TCP} 127.0.0.1:20099 -> 127.0.0.1:5000
+11/14-22:13:21.992999 [**] [1:1000002:7] "[CRITICAL] High Amount Transfer Attempt" [**] [Priority: 0] {TCP} 127.0.0.1:20099 -> 127.0.0.1:5000
